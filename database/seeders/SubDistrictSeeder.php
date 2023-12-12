@@ -452,6 +452,24 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tubei", 'district_id' => 30),
             array('name' => "Uram Jaya", 'district_id' => 30),
             // end::Subdistrict for Kabupaten Lebong
+
+            // begin::Subdistrict for Kabupaten Mukomuko
+            array('name' => "V Koto,", 'district_id' => 31),
+            array('name' => "XIV Koto", 'district_id' => 31),
+            array('name' => "Air Dikit", 'district_id' => 31),
+            array('name' => "Air Manjunto", 'district_id' => 31),
+            array('name' => "Air Rami", 'district_id' => 31),
+            array('name' => "Ipuh", 'district_id' => 31),
+            array('name' => "Kota Mukomuko", 'district_id' => 31),
+            array('name' => "Lubuk Pinang", 'district_id' => 31),
+            array('name' => "Malin Deman", 'district_id' => 31),
+            array('name' => "Penarik", 'district_id' => 31),
+            array('name' => "Pondok Suguh", 'district_id' => 31),
+            array('name' => "Selagan Raya", 'district_id' => 31),
+            array('name' => "Sungai Rumbai", 'district_id' => 31),
+            array('name' => "Teramang Jaya", 'district_id' => 31),
+            array('name' => "Teras Terunjam", 'district_id' => 31),
+            // end::Subdistrict for Kabupaten Mukomuko
         );
         DB::table('subdistricts')->insert($bengkulu);
     }
