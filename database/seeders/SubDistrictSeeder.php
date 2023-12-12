@@ -153,6 +153,16 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Sijuk", 'district_id' => 14),
             array('name' => "Tanjungpandan", 'district_id' => 14),
             // end::Subdistrict for Kabupaten Belitung
+
+            // begin::Subdistrict for Kabupaten Belitung Timur
+            array('name' => "Damar", 'district_id' => 15),
+            array('name' => "Dendang", 'district_id' => 15),
+            array('name' => "Gantung", 'district_id' => 15),
+            array('name' => "Kelapa Kampit", 'district_id' => 15),
+            array('name' => "Manggar", 'district_id' => 15),
+            array('name' => "Simpang Pesak", 'district_id' => 15),
+            array('name' => "Simpang Renggiang", 'district_id' => 15),
+            // end::Subdistrict for Kabupaten Belitung Timur
         );
         DB::table('subdistricts')->insert($bangkaBelitung);
     }
