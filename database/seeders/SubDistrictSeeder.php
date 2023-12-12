@@ -675,6 +675,11 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Penjaringan", 'district_id' => 44),
             array('name' => "Tanjung Priok", 'district_id' => 44),
             // end::Subdistrict for Jakarta Utara
+
+            // begin::Subdistrict for Kepulauan Seribu
+            array('name' => "Kepulauan Seribu Utara", 'district_id' => 45),
+            array('name' => "Kepulauan Seribu Selatan", 'district_id' => 45),
+            // end::Subdistrict for Kepulauan Seribu
         );
         DB::table('subdistricts')->insert($dkijakarta);
     }
