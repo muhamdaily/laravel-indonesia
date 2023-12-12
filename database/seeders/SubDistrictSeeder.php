@@ -616,5 +616,20 @@ class SubDistrictSeeder extends Seeder
             // end::Subdistrict for Kota Yogyakarta
         );
         DB::table('subdistricts')->insert($yogyakarta);
+
+        DB::table('subdistricts')->delete();
+        $dkijakarta = array(
+            // begin::Subdistrict for Jakarta Barat
+            array('name' => "Cengkareng", 'district_id' => 40),
+            array('name' => "Grogol Petamburan", 'district_id' => 40),
+            array('name' => "Taman Sari", 'district_id' => 40),
+            array('name' => "Tambora", 'district_id' => 40),
+            array('name' => "Kebon Jeruk", 'district_id' => 40),
+            array('name' => "Kalideres", 'district_id' => 40),
+            array('name' => "Palmerah", 'district_id' => 40),
+            array('name' => "Kembangan", 'district_id' => 40),
+            // end::Subdistrict for Jakarta Barat
+        );
+        DB::table('subdistricts')->insert($dkijakarta);
     }
 }
