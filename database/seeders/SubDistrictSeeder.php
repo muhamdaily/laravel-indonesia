@@ -688,6 +688,27 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tilamuta", 'district_id' => 46),
             array('name' => "Wonosari", 'district_id' => 46),
             // end::Subdistrict for Kabupaten Boalemo
+
+            // begin::Subdistrict for Kabupaten Bone Bolango
+            array('name' => "Bone", 'district_id' => 47),
+            array('name' => "Bone Raya", 'district_id' => 47),
+            array('name' => "Bonepantai", 'district_id' => 47),
+            array('name' => "Botupingge", 'district_id' => 47),
+            array('name' => "Bulango Selatan", 'district_id' => 47),
+            array('name' => "Bulango Timur", 'district_id' => 47),
+            array('name' => "Bulango Ulu", 'district_id' => 47),
+            array('name' => "Bulango Utara", 'district_id' => 47),
+            array('name' => "Bulawa", 'district_id' => 47),
+            array('name' => "Kabila", 'district_id' => 47),
+            array('name' => "Kabila Bone", 'district_id' => 47),
+            array('name' => "Pinogu", 'district_id' => 47),
+            array('name' => "Suwawa", 'district_id' => 47),
+            array('name' => "Suwawa Selatan", 'district_id' => 47),
+            array('name' => "Suwawa Tengah", 'district_id' => 47),
+            array('name' => "Suwawa Timur", 'district_id' => 47),
+            array('name' => "Tapa", 'district_id' => 47),
+            array('name' => "Tilongkabila", 'district_id' => 47),
+            // end::Subdistrict for Kabupaten Bone Bolango
         );
         DB::table('subdistricts')->insert($gorontalo);
     }
