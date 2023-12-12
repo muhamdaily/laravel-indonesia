@@ -682,5 +682,19 @@ class SubDistrictSeeder extends Seeder
             // end::Subdistrict for Kepulauan Seribu
         );
         DB::table('subdistricts')->insert($dkijakarta);
+
+        DB::table('subdistricts')->delete();
+        $gorontalo = array(
+            // begin::Subdistrict for Kabupaten Boalemo
+            array('name' => "Botumoito", 'district_id' => 46),
+            array('name' => "Dulupi", 'district_id' => 46),
+            array('name' => "Mananggu", 'district_id' => 46),
+            array('name' => "Paguyaman", 'district_id' => 46),
+            array('name' => "Paguyaman Pantai", 'district_id' => 46),
+            array('name' => "Tilamuta", 'district_id' => 46),
+            array('name' => "Wonosari", 'district_id' => 46),
+            // end::Subdistrict for Kabupaten Boalemo
+        );
+        DB::table('subdistricts')->insert($gorontalo);
     }
 }
