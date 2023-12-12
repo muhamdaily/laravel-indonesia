@@ -426,6 +426,17 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tanjung Kemuning", 'district_id' => 28),
             array('name' => "Tetap", 'district_id' => 28),
             // end::Subdistrict for Kabupaten Kaur
+
+            // begin::Subdistrict for Kabupaten Kepahiang
+            array('name' => "Bermani Ilir,", 'district_id' => 29),
+            array('name' => "Kabawetan", 'district_id' => 29),
+            array('name' => "Kepahiang", 'district_id' => 29),
+            array('name' => "Merigi", 'district_id' => 29),
+            array('name' => "Muara Kemumu", 'district_id' => 29),
+            array('name' => "Seberang Musi", 'district_id' => 29),
+            array('name' => "Tebat Karai", 'district_id' => 29),
+            array('name' => "Ujan Mas", 'district_id' => 29),
+            // end::Subdistrict for Kabupaten Kepahiang
         );
         DB::table('subdistricts')->insert($bengkulu);
     }
