@@ -470,6 +470,24 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Teramang Jaya", 'district_id' => 31),
             array('name' => "Teras Terunjam", 'district_id' => 31),
             // end::Subdistrict for Kabupaten Mukomuko
+
+            // begin::Subdistrict for Kabupaten Rejang Lebong
+            array('name' => "Bermani Ulu,", 'district_id' => 32),
+            array('name' => "Bermani Ulu Raya", 'district_id' => 32),
+            array('name' => "Binduriang", 'district_id' => 32),
+            array('name' => "Curup", 'district_id' => 32),
+            array('name' => "Curup Selatan", 'district_id' => 32),
+            array('name' => "Curup Tengah", 'district_id' => 32),
+            array('name' => "Curup Timur", 'district_id' => 32),
+            array('name' => "Curup Utara", 'district_id' => 32),
+            array('name' => "Kota Padang", 'district_id' => 32),
+            array('name' => "Padang Ulak Tanding", 'district_id' => 32),
+            array('name' => "Selupu Rejang", 'district_id' => 32),
+            array('name' => "Sindang Beliti Ulu", 'district_id' => 32),
+            array('name' => "Sindang Beliti Ilir", 'district_id' => 32),
+            array('name' => "Sindang Dataran", 'district_id' => 32),
+            array('name' => "Sindang Kelingi", 'district_id' => 32),
+            // end::Subdistrict for Kabupaten Rejang Lebong
         );
         DB::table('subdistricts')->insert($bengkulu);
     }
