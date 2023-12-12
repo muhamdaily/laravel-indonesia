@@ -577,6 +577,26 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Temon", 'district_id' => 37),
             array('name' => "Wates", 'district_id' => 37),
             // end::Subdistrict for Kabupaten Kulon Progo
+
+            // begin::Subdistrict for Kabupaten Sleman
+            array('name' => "Berbah", 'district_id' => 38),
+            array('name' => "Cangkringan", 'district_id' => 38),
+            array('name' => "Depok", 'district_id' => 38),
+            array('name' => "Gamping", 'district_id' => 38),
+            array('name' => "Godean", 'district_id' => 38),
+            array('name' => "Kalasan", 'district_id' => 38),
+            array('name' => "Minggir", 'district_id' => 38),
+            array('name' => "Mlati", 'district_id' => 38),
+            array('name' => "Moyudan", 'district_id' => 38),
+            array('name' => "Ngaglik", 'district_id' => 38),
+            array('name' => "Ngemplak", 'district_id' => 38),
+            array('name' => "Pakem", 'district_id' => 38),
+            array('name' => "Prambanan", 'district_id' => 38),
+            array('name' => "Seyegan", 'district_id' => 38),
+            array('name' => "Sleman", 'district_id' => 38),
+            array('name' => "Tempel", 'district_id' => 38),
+            array('name' => "Turi", 'district_id' => 38),
+            // end::Subdistrict for Kabupaten Sleman
         );
         DB::table('subdistricts')->insert($yogyakarta);
     }
