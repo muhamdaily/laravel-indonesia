@@ -101,7 +101,6 @@ class SubDistrictSeeder extends Seeder
         );
         DB::table('subdistricts')->insert($bali);
 
-        DB::table('subdistricts')->delete();
         $bangkaBelitung = array(
             // begin::Subdistrict for Kabupaten Bangka
             array('name' => "Bakam", 'district_id' => 10),
@@ -176,7 +175,6 @@ class SubDistrictSeeder extends Seeder
         );
         DB::table('subdistricts')->insert($bangkaBelitung);
 
-        DB::table('subdistricts')->delete();
         $banten = array(
             // begin::Subdistrict for Kabupaten Lebak
             array('name' => "Banjarsari", 'district_id' => 17),
@@ -358,7 +356,6 @@ class SubDistrictSeeder extends Seeder
         );
         DB::table('subdistricts')->insert($banten);
 
-        DB::table('subdistricts')->delete();
         $bengkulu = array(
             // begin::Subdistrict for Kabupaten Bengkulu Selatan
             array('name' => "Air Nipis", 'district_id' => 25),
@@ -520,7 +517,6 @@ class SubDistrictSeeder extends Seeder
         );
         DB::table('subdistricts')->insert($bengkulu);
 
-        DB::table('subdistricts')->delete();
         $yogyakarta = array(
             // begin::Subdistrict for Kabupaten Bantul
             array('name' => "Bambanglipuro", 'district_id' => 35),
@@ -617,7 +613,6 @@ class SubDistrictSeeder extends Seeder
         );
         DB::table('subdistricts')->insert($yogyakarta);
 
-        DB::table('subdistricts')->delete();
         $dkijakarta = array(
             // begin::Subdistrict for Jakarta Barat
             array('name' => "Cengkareng", 'district_id' => 40),
@@ -683,7 +678,6 @@ class SubDistrictSeeder extends Seeder
         );
         DB::table('subdistricts')->insert($dkijakarta);
 
-        DB::table('subdistricts')->delete();
         $gorontalo = array(
             // begin::Subdistrict for Kabupaten Boalemo
             array('name' => "Botumoito", 'district_id' => 46),
