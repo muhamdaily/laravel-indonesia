@@ -373,6 +373,19 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Seginim", 'district_id' => 25),
             array('name' => "Ulu Manna", 'district_id' => 25),
             // end::Subdistrict for Kabupaten Bengkulu Selatan
+
+            // begin::Subdistrict for Kabupaten Bengkulu Tengah
+            array('name' => "Bang Haji,", 'district_id' => 26),
+            array('name' => "Karang Tinggi", 'district_id' => 26),
+            array('name' => "Merigi Kelindang", 'district_id' => 26),
+            array('name' => "Merigi Sakti", 'district_id' => 26),
+            array('name' => "Pagar Jati", 'district_id' => 26),
+            array('name' => "Pondok Kelapa", 'district_id' => 26),
+            array('name' => "Pematang Tiga", 'district_id' => 26),
+            array('name' => "Semidang Lagan", 'district_id' => 26),
+            array('name' => "Taba Penanjung", 'district_id' => 26),
+            array('name' => "Talang Empat", 'district_id' => 26),
+            // end::Subdistrict for Kabupaten Bengkulu Tengah
         );
         DB::table('subdistricts')->insert($bengkulu);
     }
