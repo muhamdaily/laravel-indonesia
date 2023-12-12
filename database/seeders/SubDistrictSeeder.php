@@ -329,6 +329,22 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Taktakan", 'district_id' => 22),
             array('name' => "Walantaka", 'district_id' => 22),
             // end::Subdistrict for Kota Serang
+
+            // begin::Subdistrict for Kota Tangerang
+            array('name' => "Batuceper", 'district_id' => 23),
+            array('name' => "Benda", 'district_id' => 23),
+            array('name' => "Cibodas", 'district_id' => 23),
+            array('name' => "Ciledug", 'district_id' => 23),
+            array('name' => "Cipondoh", 'district_id' => 23),
+            array('name' => "Jatiuwung", 'district_id' => 23),
+            array('name' => "Karang Tengah", 'district_id' => 23),
+            array('name' => "Karawaci", 'district_id' => 23),
+            array('name' => "Larangan", 'district_id' => 23),
+            array('name' => "Neglasari", 'district_id' => 23),
+            array('name' => "Periuk", 'district_id' => 23),
+            array('name' => "Pinang", 'district_id' => 23),
+            array('name' => "Tangerang", 'district_id' => 23),
+            // end::Subdistrict for Kota Tangerang
         );
         DB::table('subdistricts')->insert($banten);
     }
