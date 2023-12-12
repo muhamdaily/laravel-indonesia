@@ -562,6 +562,21 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tepus", 'district_id' => 36),
             array('name' => "Wonosari", 'district_id' => 36),
             // end::Subdistrict for Kabupaten Gunungkidul
+
+            // begin::Subdistrict for Kabupaten Kulon Progo
+            array('name' => "Galur", 'district_id' => 37),
+            array('name' => "Girimulyo", 'district_id' => 37),
+            array('name' => "Kalibawang", 'district_id' => 37),
+            array('name' => "Kokap", 'district_id' => 37),
+            array('name' => "Lendah", 'district_id' => 37),
+            array('name' => "Nanggulan", 'district_id' => 37),
+            array('name' => "Panjatan", 'district_id' => 37),
+            array('name' => "Pengasih", 'district_id' => 37),
+            array('name' => "Samigaluh", 'district_id' => 37),
+            array('name' => "Sentolo", 'district_id' => 37),
+            array('name' => "Temon", 'district_id' => 37),
+            array('name' => "Wates", 'district_id' => 37),
+            // end::Subdistrict for Kabupaten Kulon Progo
         );
         DB::table('subdistricts')->insert($yogyakarta);
     }
