@@ -488,6 +488,23 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Sindang Dataran", 'district_id' => 32),
             array('name' => "Sindang Kelingi", 'district_id' => 32),
             // end::Subdistrict for Kabupaten Rejang Lebong
+
+            // begin::Subdistrict for Kabupaten Seluma
+            array('name' => "Air Periukan", 'district_id' => 33),
+            array('name' => "Ilir Talo", 'district_id' => 33),
+            array('name' => "Lubuk Sandi", 'district_id' => 33),
+            array('name' => "Seluma", 'district_id' => 33),
+            array('name' => "Seluma Barat", 'district_id' => 33),
+            array('name' => "Seluma Selatan", 'district_id' => 33),
+            array('name' => "Seluma Timur", 'district_id' => 33),
+            array('name' => "Seluma Utara", 'district_id' => 33),
+            array('name' => "Semidang Alas", 'district_id' => 33),
+            array('name' => "Semidang Alas Maras", 'district_id' => 33),
+            array('name' => "Sukaraja,", 'district_id' => 33),
+            array('name' => "Talo", 'district_id' => 33),
+            array('name' => "Talo Kecil", 'district_id' => 33),
+            array('name' => "Ulu Talo", 'district_id' => 33),
+            // end::Subdistrict for Kabupaten Seluma
         );
         DB::table('subdistricts')->insert($bengkulu);
     }
