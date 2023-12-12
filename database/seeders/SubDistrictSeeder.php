@@ -597,6 +597,23 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tempel", 'district_id' => 38),
             array('name' => "Turi", 'district_id' => 38),
             // end::Subdistrict for Kabupaten Sleman
+
+            // begin::Subdistrict for Kota Yogyakarta
+            array('name' => "Danurejan", 'district_id' => 39),
+            array('name' => "Gedongtengen", 'district_id' => 39),
+            array('name' => "Gondokusuman", 'district_id' => 39),
+            array('name' => "Gondomanan", 'district_id' => 39),
+            array('name' => "Jetis", 'district_id' => 39),
+            array('name' => "Kotagede", 'district_id' => 39),
+            array('name' => "Kraton", 'district_id' => 39),
+            array('name' => "Mantrijeron", 'district_id' => 39),
+            array('name' => "Mergangsan", 'district_id' => 39),
+            array('name' => "Ngampilan", 'district_id' => 39),
+            array('name' => "Pakualaman", 'district_id' => 39),
+            array('name' => "Tegalrejo", 'district_id' => 39),
+            array('name' => "Umbulharjo", 'district_id' => 39),
+            array('name' => "Wirobrajan", 'district_id' => 39),
+            // end::Subdistrict for Kota Yogyakarta
         );
         DB::table('subdistricts')->insert($yogyakarta);
     }
