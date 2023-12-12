@@ -208,6 +208,43 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Wanasalam", 'district_id' => 17),
             array('name' => "Warunggunung", 'district_id' => 17),
             // end::Subdistrict for Kabupaten Lebak
+
+            // begin::Subdistrict for Kabupaten Pandeglang
+            array('name' => "Angsana", 'district_id' => 18),
+            array('name' => "Banjar", 'district_id' => 18),
+            array('name' => "Bojong", 'district_id' => 18),
+            array('name' => "Cadasari", 'district_id' => 18),
+            array('name' => "Carita", 'district_id' => 18),
+            array('name' => "Cibaliung", 'district_id' => 18),
+            array('name' => "Cibitung", 'district_id' => 18),
+            array('name' => "Cigeulis", 'district_id' => 18),
+            array('name' => "Cikedal", 'district_id' => 18),
+            array('name' => "Cikeusik", 'district_id' => 18),
+            array('name' => "Cimanggu", 'district_id' => 18),
+            array('name' => "Cimanuk", 'district_id' => 18),
+            array('name' => "Cipeucang", 'district_id' => 18),
+            array('name' => "Cisata", 'district_id' => 18),
+            array('name' => "Jiput", 'district_id' => 18),
+            array('name' => "Kaduhejo", 'district_id' => 18),
+            array('name' => "Karang Tanjung", 'district_id' => 18),
+            array('name' => "Koroncong", 'district_id' => 18),
+            array('name' => "Labuan", 'district_id' => 18),
+            array('name' => "Majasari", 'district_id' => 18),
+            array('name' => "Mandalawangi", 'district_id' => 18),
+            array('name' => "Mekarjaya", 'district_id' => 18),
+            array('name' => "Menes", 'district_id' => 18),
+            array('name' => "Munjul", 'district_id' => 18),
+            array('name' => "Pagelaran", 'district_id' => 18),
+            array('name' => "Pandeglang", 'district_id' => 18),
+            array('name' => "Patia", 'district_id' => 18),
+            array('name' => "Picung", 'district_id' => 18),
+            array('name' => "Pulosari", 'district_id' => 18),
+            array('name' => "Saketi", 'district_id' => 18),
+            array('name' => "Sindangresmi", 'district_id' => 18),
+            array('name' => "Sobang", 'district_id' => 18),
+            array('name' => "Sukaresmi", 'district_id' => 18),
+            array('name' => "Sumur", 'district_id' => 18),
+            // end::Subdistrict for Kabupaten Pandeglang
         );
         DB::table('subdistricts')->insert($banten);
     }
