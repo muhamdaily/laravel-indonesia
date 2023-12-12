@@ -245,6 +245,38 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Sukaresmi", 'district_id' => 18),
             array('name' => "Sumur", 'district_id' => 18),
             // end::Subdistrict for Kabupaten Pandeglang
+
+            // begin::Subdistrict for Kabupaten Serang
+            array('name' => "Anyar", 'district_id' => 19),
+            array('name' => "Bandung", 'district_id' => 19),
+            array('name' => "Baros", 'district_id' => 19),
+            array('name' => "Binuang", 'district_id' => 19),
+            array('name' => "Bojonegara", 'district_id' => 19),
+            array('name' => "Carenang", 'district_id' => 19),
+            array('name' => "Cikande", 'district_id' => 19),
+            array('name' => "Cikeusal", 'district_id' => 19),
+            array('name' => "Cinangka", 'district_id' => 19),
+            array('name' => "Ciomas", 'district_id' => 19),
+            array('name' => "Ciruas", 'district_id' => 19),
+            array('name' => "Gunungsari", 'district_id' => 19),
+            array('name' => "Jawilan", 'district_id' => 19),
+            array('name' => "Kibin", 'district_id' => 19),
+            array('name' => "Kopo", 'district_id' => 19),
+            array('name' => "Kragilan", 'district_id' => 19),
+            array('name' => "Kramatwatu", 'district_id' => 19),
+            array('name' => "Lebak Wangi", 'district_id' => 19),
+            array('name' => "Mancak", 'district_id' => 19),
+            array('name' => "Pabuaran", 'district_id' => 19),
+            array('name' => "Padarincang", 'district_id' => 19),
+            array('name' => "Pamarayan", 'district_id' => 19),
+            array('name' => "Petir", 'district_id' => 19),
+            array('name' => "Pontang", 'district_id' => 19),
+            array('name' => "Pulo Ampel", 'district_id' => 19),
+            array('name' => "Tanara", 'district_id' => 19),
+            array('name' => "Tirtayasa", 'district_id' => 19),
+            array('name' => "Tunjung Teja", 'district_id' => 19),
+            array('name' => "Waringinkurung", 'district_id' => 19),
+            // end::Subdistrict for Kabupaten Serang
         );
         DB::table('subdistricts')->insert($banten);
     }
