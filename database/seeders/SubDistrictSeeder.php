@@ -408,6 +408,24 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tanjung Agung Palik", 'district_id' => 27),
             array('name' => "Ulok Kupai", 'district_id' => 27),
             // end::Subdistrict for Kabupaten Bengkulu Utara
+
+            // begin::Subdistrict for Kabupaten Kaur
+            array('name' => "Kaur Selatan,", 'district_id' => 28),
+            array('name' => "Kaur Tengah", 'district_id' => 28),
+            array('name' => "Kaur Utara", 'district_id' => 28),
+            array('name' => "Kelam Tengah", 'district_id' => 28),
+            array('name' => "Kinal", 'district_id' => 28),
+            array('name' => "Lungkang Kule", 'district_id' => 28),
+            array('name' => "Luas", 'district_id' => 28),
+            array('name' => "Maje", 'district_id' => 28),
+            array('name' => "Muara Sahung", 'district_id' => 28),
+            array('name' => "Nasal", 'district_id' => 28),
+            array('name' => "Padang Guci Hilir", 'district_id' => 28),
+            array('name' => "Padang Guci Hulu", 'district_id' => 28),
+            array('name' => "Semidang Gumay", 'district_id' => 28),
+            array('name' => "Tanjung Kemuning", 'district_id' => 28),
+            array('name' => "Tetap", 'district_id' => 28),
+            // end::Subdistrict for Kabupaten Kaur
         );
         DB::table('subdistricts')->insert($bengkulu);
     }
