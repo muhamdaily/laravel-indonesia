@@ -437,6 +437,21 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tebat Karai", 'district_id' => 29),
             array('name' => "Ujan Mas", 'district_id' => 29),
             // end::Subdistrict for Kabupaten Kepahiang
+
+            // begin::Subdistrict for Kabupaten Lebong
+            array('name' => "Amen,", 'district_id' => 30),
+            array('name' => "Bingin Kuning", 'district_id' => 30),
+            array('name' => "Lebong Atas", 'district_id' => 30),
+            array('name' => "Lebong Sakti", 'district_id' => 30),
+            array('name' => "Lebong Selatan", 'district_id' => 30),
+            array('name' => "Lebong Tengah", 'district_id' => 30),
+            array('name' => "Lebong Utara", 'district_id' => 30),
+            array('name' => "Pinang Belapis", 'district_id' => 30),
+            array('name' => "Rimbo Pengadang", 'district_id' => 30),
+            array('name' => "Topos", 'district_id' => 30),
+            array('name' => "Tubei", 'district_id' => 30),
+            array('name' => "Uram Jaya", 'district_id' => 30),
+            // end::Subdistrict for Kabupaten Lebong
         );
         DB::table('subdistricts')->insert($bengkulu);
     }
