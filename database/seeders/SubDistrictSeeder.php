@@ -653,6 +653,19 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Setiabudi", 'district_id' => 42),
             array('name' => "Tebet", 'district_id' => 42),
             // end::Subdistrict for Jakarta Selatan
+
+            // begin::Subdistrict for Jakarta Timur
+            array('name' => "Cakung", 'district_id' => 43),
+            array('name' => "Cipayung", 'district_id' => 43),
+            array('name' => "Ciracas", 'district_id' => 43),
+            array('name' => "Duren Sawit", 'district_id' => 43),
+            array('name' => "Jatinegara", 'district_id' => 43),
+            array('name' => "Kramat Jati", 'district_id' => 43),
+            array('name' => "Makasar", 'district_id' => 43),
+            array('name' => "Matraman", 'district_id' => 43),
+            array('name' => "Pasar Rebo", 'district_id' => 43),
+            array('name' => "Pulo Gadung", 'district_id' => 43),
+            // end::Subdistrict for Jakarta Timur
         );
         DB::table('subdistricts')->insert($dkijakarta);
     }
