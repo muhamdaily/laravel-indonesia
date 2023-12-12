@@ -175,5 +175,40 @@ class SubDistrictSeeder extends Seeder
             // end::Subdistrict for Kota Pangkalpinang
         );
         DB::table('subdistricts')->insert($bangkaBelitung);
+
+        DB::table('subdistricts')->delete();
+        $banten = array(
+            // begin::Subdistrict for Kabupaten Lebak
+            array('name' => "Banjarsari", 'district_id' => 17),
+            array('name' => "Bayah", 'district_id' => 17),
+            array('name' => "Bojongmanik", 'district_id' => 17),
+            array('name' => "Cibadak", 'district_id' => 17),
+            array('name' => "Cibeber", 'district_id' => 17),
+            array('name' => "Cigemblong", 'district_id' => 17),
+            array('name' => "Cihara", 'district_id' => 17),
+            array('name' => "Cijaku", 'district_id' => 17),
+            array('name' => "Cikulur", 'district_id' => 17),
+            array('name' => "Cileles", 'district_id' => 17),
+            array('name' => "Cilograng", 'district_id' => 17),
+            array('name' => "Cimarga", 'district_id' => 17),
+            array('name' => "Cipanas", 'district_id' => 17),
+            array('name' => "Cirinten", 'district_id' => 17),
+            array('name' => "Curugbitung", 'district_id' => 17),
+            array('name' => "Gunungkencana", 'district_id' => 17),
+            array('name' => "Kalanganyar", 'district_id' => 17),
+            array('name' => "Lebak Gedong", 'district_id' => 17),
+            array('name' => "Leuwidamar", 'district_id' => 17),
+            array('name' => "Maja", 'district_id' => 17),
+            array('name' => "Malingping", 'district_id' => 17),
+            array('name' => "Muncang", 'district_id' => 17),
+            array('name' => "Panggarangan", 'district_id' => 17),
+            array('name' => "Rangkasbitung", 'district_id' => 17),
+            array('name' => "Sajira", 'district_id' => 17),
+            array('name' => "Sobang", 'district_id' => 17),
+            array('name' => "Wanasalam", 'district_id' => 17),
+            array('name' => "Warunggunung", 'district_id' => 17),
+            // end::Subdistrict for Kabupaten Lebak
+        );
+        DB::table('subdistricts')->insert($banten);
     }
 }
