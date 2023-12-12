@@ -519,5 +519,29 @@ class SubDistrictSeeder extends Seeder
             // end::Subdistrict for Kota Bengkulu
         );
         DB::table('subdistricts')->insert($bengkulu);
+
+        DB::table('subdistricts')->delete();
+        $yogyakarta = array(
+            // begin::Subdistrict for Kabupaten Bantul
+            array('name' => "Bambanglipuro", 'district_id' => 35),
+            array('name' => "Banguntapan", 'district_id' => 35),
+            array('name' => "Bantul", 'district_id' => 35),
+            array('name' => "Dlingo", 'district_id' => 35),
+            array('name' => "Imogiri", 'district_id' => 35),
+            array('name' => "Jetis", 'district_id' => 35),
+            array('name' => "Kasihan", 'district_id' => 35),
+            array('name' => "Kretek", 'district_id' => 35),
+            array('name' => "Pajangan", 'district_id' => 35),
+            array('name' => "Pandak", 'district_id' => 35),
+            array('name' => "Piyungan", 'district_id' => 35),
+            array('name' => "Pleret", 'district_id' => 35),
+            array('name' => "Pundong", 'district_id' => 35),
+            array('name' => "Sanden", 'district_id' => 35),
+            array('name' => "Sedayu", 'district_id' => 35),
+            array('name' => "Sewon", 'district_id' => 35),
+            array('name' => "Srandakan", 'district_id' => 35),
+            // end::Subdistrict for Kabupaten Bantul
+        );
+        DB::table('subdistricts')->insert($yogyakarta);
     }
 }
