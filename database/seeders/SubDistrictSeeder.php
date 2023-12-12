@@ -541,6 +541,27 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Sewon", 'district_id' => 35),
             array('name' => "Srandakan", 'district_id' => 35),
             // end::Subdistrict for Kabupaten Bantul
+
+            // begin::Subdistrict for Kabupaten Gunungkidul
+            array('name' => "Gedangsari", 'district_id' => 36),
+            array('name' => "Girisubo", 'district_id' => 36),
+            array('name' => "Karangmojo", 'district_id' => 36),
+            array('name' => "Ngawen", 'district_id' => 36),
+            array('name' => "Nglipar", 'district_id' => 36),
+            array('name' => "Paliyan", 'district_id' => 36),
+            array('name' => "Panggang", 'district_id' => 36),
+            array('name' => "Patuk", 'district_id' => 36),
+            array('name' => "Playen", 'district_id' => 36),
+            array('name' => "Ponjong", 'district_id' => 36),
+            array('name' => "Purwosari", 'district_id' => 36),
+            array('name' => "Rongkop", 'district_id' => 36),
+            array('name' => "Saptosari", 'district_id' => 36),
+            array('name' => "Semanu", 'district_id' => 36),
+            array('name' => "Semin", 'district_id' => 36),
+            array('name' => "Tanjungsari", 'district_id' => 36),
+            array('name' => "Tepus", 'district_id' => 36),
+            array('name' => "Wonosari", 'district_id' => 36),
+            // end::Subdistrict for Kabupaten Gunungkidul
         );
         DB::table('subdistricts')->insert($yogyakarta);
     }
