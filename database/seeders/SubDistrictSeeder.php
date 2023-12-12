@@ -136,6 +136,15 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Toboali", 'district_id' => 12),
             array('name' => "Tukak Sadai", 'district_id' => 12),
             // end::Subdistrict for Kabupaten Bangka Selatan
+
+            // begin::Subdistrict for Kabupaten Bangka Tengah
+            array('name' => "Koba", 'district_id' => 13),
+            array('name' => "Lubuk Besar", 'district_id' => 13),
+            array('name' => "Namang", 'district_id' => 13),
+            array('name' => "Pangkalan Baru", 'district_id' => 13),
+            array('name' => "Simpang Katis", 'district_id' => 13),
+            array('name' => "Sungai Selan", 'district_id' => 13),
+            // end::Subdistrict for Kabupaten Bangka Tengah
         );
         DB::table('subdistricts')->insert($bangkaBelitung);
     }
