@@ -145,6 +145,14 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Simpang Katis", 'district_id' => 13),
             array('name' => "Sungai Selan", 'district_id' => 13),
             // end::Subdistrict for Kabupaten Bangka Tengah
+
+            // begin::Subdistrict for Kabupaten Belitung
+            array('name' => "Badau", 'district_id' => 14),
+            array('name' => "Membalong", 'district_id' => 14),
+            array('name' => "Selat Nasik", 'district_id' => 14),
+            array('name' => "Sijuk", 'district_id' => 14),
+            array('name' => "Tanjungpandan", 'district_id' => 14),
+            // end::Subdistrict for Kabupaten Belitung
         );
         DB::table('subdistricts')->insert($bangkaBelitung);
     }
