@@ -277,6 +277,38 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tunjung Teja", 'district_id' => 19),
             array('name' => "Waringinkurung", 'district_id' => 19),
             // end::Subdistrict for Kabupaten Serang
+
+            // begin::Subdistrict for Kabupaten Tangerang
+            array('name' => "Balaraja", 'district_id' => 20),
+            array('name' => "Cikupa", 'district_id' => 20),
+            array('name' => "Cisauk", 'district_id' => 20),
+            array('name' => "Cisoka", 'district_id' => 20),
+            array('name' => "Curug", 'district_id' => 20),
+            array('name' => "Gunung Kaler", 'district_id' => 20),
+            array('name' => "Jambe", 'district_id' => 20),
+            array('name' => "Jayanti", 'district_id' => 20),
+            array('name' => "Kelapa Dua", 'district_id' => 20),
+            array('name' => "Kemiri", 'district_id' => 20),
+            array('name' => "Kresek", 'district_id' => 20),
+            array('name' => "Kronjo", 'district_id' => 20),
+            array('name' => "Kosambi", 'district_id' => 20),
+            array('name' => "Legok", 'district_id' => 20),
+            array('name' => "Mauk", 'district_id' => 20),
+            array('name' => "Mekar Baru", 'district_id' => 20),
+            array('name' => "Pagedangan", 'district_id' => 20),
+            array('name' => "Pakuhaji", 'district_id' => 20),
+            array('name' => "Panongan", 'district_id' => 20),
+            array('name' => "Pasar Kemis", 'district_id' => 20),
+            array('name' => "Rajeg", 'district_id' => 20),
+            array('name' => "Sepatan", 'district_id' => 20),
+            array('name' => "Sepatan Timur", 'district_id' => 20),
+            array('name' => "Sindang Jaya", 'district_id' => 20),
+            array('name' => "Solear", 'district_id' => 20),
+            array('name' => "Sukadiri", 'district_id' => 20),
+            array('name' => "Sukamulya", 'district_id' => 20),
+            array('name' => "Teluknaga", 'district_id' => 20),
+            array('name' => "Tigaraksa", 'district_id' => 20),
+            // end::Subdistrict for Kabupaten Tangerang
         );
         DB::table('subdistricts')->insert($banten);
     }
