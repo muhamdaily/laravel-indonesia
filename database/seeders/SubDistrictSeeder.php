@@ -629,6 +629,17 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Palmerah", 'district_id' => 40),
             array('name' => "Kembangan", 'district_id' => 40),
             // end::Subdistrict for Jakarta Barat
+
+            // begin::Subdistrict for Jakarta Pusat
+            array('name' => "Cempaka Putih", 'district_id' => 41),
+            array('name' => "Gambir", 'district_id' => 41),
+            array('name' => "Johar Baru", 'district_id' => 41),
+            array('name' => "Kemayoran", 'district_id' => 41),
+            array('name' => "Menteng", 'district_id' => 41),
+            array('name' => "Sawah Besar", 'district_id' => 41),
+            array('name' => "Senen", 'district_id' => 41),
+            array('name' => "Tanah Abang", 'district_id' => 41),
+            // end::Subdistrict for Jakarta Pusat
         );
         DB::table('subdistricts')->insert($dkijakarta);
     }
