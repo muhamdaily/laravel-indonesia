@@ -505,6 +505,18 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Talo Kecil", 'district_id' => 33),
             array('name' => "Ulu Talo", 'district_id' => 33),
             // end::Subdistrict for Kabupaten Seluma
+
+            // begin::Subdistrict for Kota Bengkulu
+            array('name' => "Gading Cempaka", 'district_id' => 34),
+            array('name' => "Kampung Melayu", 'district_id' => 34),
+            array('name' => "Muara Bangkahulu", 'district_id' => 34),
+            array('name' => "Ratu Agung", 'district_id' => 34),
+            array('name' => "Ratu Samban", 'district_id' => 34),
+            array('name' => "Selebar", 'district_id' => 34),
+            array('name' => "Singaran Pati", 'district_id' => 34),
+            array('name' => "Sungai Serut", 'district_id' => 34),
+            array('name' => "Teluk Segara", 'district_id' => 34),
+            // end::Subdistrict for Kota Bengkulu
         );
         DB::table('subdistricts')->insert($bengkulu);
     }
