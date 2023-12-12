@@ -386,6 +386,28 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Taba Penanjung", 'district_id' => 26),
             array('name' => "Talang Empat", 'district_id' => 26),
             // end::Subdistrict for Kabupaten Bengkulu Tengah
+
+            // begin::Subdistrict for Kabupaten Bengkulu Utara
+            array('name' => "Air Besi,", 'district_id' => 27),
+            array('name' => "Air Napal", 'district_id' => 27),
+            array('name' => "Air Padang", 'district_id' => 27),
+            array('name' => "Arma Jaya", 'district_id' => 27),
+            array('name' => "Batik Nau", 'district_id' => 27),
+            array('name' => "Enggano", 'district_id' => 27),
+            array('name' => "Giri Mulya", 'district_id' => 27),
+            array('name' => "Hulu Palik", 'district_id' => 27),
+            array('name' => "Kerkap", 'district_id' => 27),
+            array('name' => "Ketahun", 'district_id' => 27),
+            array('name' => "Kota Arga Makmur", 'district_id' => 27),
+            array('name' => "Lais", 'district_id' => 27),
+            array('name' => "Marga Sakti Sebelat", 'district_id' => 27),
+            array('name' => "Napal Putih", 'district_id' => 27),
+            array('name' => "Padang Jaya", 'district_id' => 27),
+            array('name' => "Pinang Raya", 'district_id' => 27),
+            array('name' => "Putri Hijau", 'district_id' => 27),
+            array('name' => "Tanjung Agung Palik", 'district_id' => 27),
+            array('name' => "Ulok Kupai", 'district_id' => 27),
+            // end::Subdistrict for Kabupaten Bengkulu Utara
         );
         DB::table('subdistricts')->insert($bengkulu);
     }
