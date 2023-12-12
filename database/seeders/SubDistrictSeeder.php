@@ -666,6 +666,15 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Pasar Rebo", 'district_id' => 43),
             array('name' => "Pulo Gadung", 'district_id' => 43),
             // end::Subdistrict for Jakarta Timur
+
+            // begin::Subdistrict for Jakarta Utara
+            array('name' => "Cilincing", 'district_id' => 44),
+            array('name' => "Kelapa Gading", 'district_id' => 44),
+            array('name' => "Koja", 'district_id' => 44),
+            array('name' => "Pademangan", 'district_id' => 44),
+            array('name' => "Penjaringan", 'district_id' => 44),
+            array('name' => "Tanjung Priok", 'district_id' => 44),
+            // end::Subdistrict for Jakarta Utara
         );
         DB::table('subdistricts')->insert($dkijakarta);
     }
