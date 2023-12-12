@@ -345,6 +345,16 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Pinang", 'district_id' => 23),
             array('name' => "Tangerang", 'district_id' => 23),
             // end::Subdistrict for Kota Tangerang
+
+            // begin::Subdistrict for Kota Tangerang Selatan
+            array('name' => "Ciputat", 'district_id' => 24),
+            array('name' => "Ciputat Timur", 'district_id' => 24),
+            array('name' => "Pamulang", 'district_id' => 24),
+            array('name' => "Pondok Aren", 'district_id' => 24),
+            array('name' => "Serpong", 'district_id' => 24),
+            array('name' => "Serpong Utara", 'district_id' => 24),
+            array('name' => "Setu", 'district_id' => 24),
+            // end::Subdistrict for Kota Tangerang Selatan
         );
         DB::table('subdistricts')->insert($banten);
     }
