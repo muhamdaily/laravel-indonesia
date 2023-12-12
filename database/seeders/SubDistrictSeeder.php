@@ -357,5 +357,23 @@ class SubDistrictSeeder extends Seeder
             // end::Subdistrict for Kota Tangerang Selatan
         );
         DB::table('subdistricts')->insert($banten);
+
+        DB::table('subdistricts')->delete();
+        $bengkulu = array(
+            // begin::Subdistrict for Kabupaten Bengkulu Selatan
+            array('name' => "Air Nipis", 'district_id' => 25),
+            array('name' => "Bunga Mas", 'district_id' => 25),
+            array('name' => "Kedurang", 'district_id' => 25),
+            array('name' => "Kedurang Ilir", 'district_id' => 25),
+            array('name' => "Kota Manna", 'district_id' => 25),
+            array('name' => "Manna", 'district_id' => 25),
+            array('name' => "Pasar Manna", 'district_id' => 25),
+            array('name' => "Pino", 'district_id' => 25),
+            array('name' => "Pino Raya", 'district_id' => 25),
+            array('name' => "Seginim", 'district_id' => 25),
+            array('name' => "Ulu Manna", 'district_id' => 25),
+            // end::Subdistrict for Kabupaten Bengkulu Selatan
+        );
+        DB::table('subdistricts')->insert($bengkulu);
     }
 }
