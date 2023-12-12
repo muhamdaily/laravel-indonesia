@@ -163,6 +163,16 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Simpang Pesak", 'district_id' => 15),
             array('name' => "Simpang Renggiang", 'district_id' => 15),
             // end::Subdistrict for Kabupaten Belitung Timur
+
+            // begin::Subdistrict for Kota Pangkalpinang
+            array('name' => "Bukit Intan", 'district_id' => 16),
+            array('name' => "Gabek", 'district_id' => 16),
+            array('name' => "Gerunggang", 'district_id' => 16),
+            array('name' => "Girimaya", 'district_id' => 16),
+            array('name' => "Pangkal Balam", 'district_id' => 16),
+            array('name' => "Rangkui", 'district_id' => 16),
+            array('name' => "Taman Sari", 'district_id' => 16),
+            // end::Subdistrict for Kota Pangkalpinang
         );
         DB::table('subdistricts')->insert($bangkaBelitung);
     }
