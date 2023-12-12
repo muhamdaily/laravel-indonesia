@@ -309,6 +309,17 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Teluknaga", 'district_id' => 20),
             array('name' => "Tigaraksa", 'district_id' => 20),
             // end::Subdistrict for Kabupaten Tangerang
+
+            // begin::Subdistrict for Kota Cilegon
+            array('name' => "Cibeber", 'district_id' => 21),
+            array('name' => "Cilegon", 'district_id' => 21),
+            array('name' => "Citangkil", 'district_id' => 21),
+            array('name' => "Ciwandan", 'district_id' => 21),
+            array('name' => "Gerogol", 'district_id' => 21),
+            array('name' => "Jombang", 'district_id' => 21),
+            array('name' => "Pulomerak", 'district_id' => 21),
+            array('name' => "Purwakarta", 'district_id' => 21),
+            // end::Subdistrict for Kota Cilegon
         );
         DB::table('subdistricts')->insert($banten);
     }
