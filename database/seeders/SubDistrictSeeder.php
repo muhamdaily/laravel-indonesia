@@ -116,6 +116,26 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Simpang Tiga", 'district_id' => 10),
             array('name' => "Sungai Liat", 'district_id' => 10),
             // end::Subdistrict for Kabupaten Bangka
+
+            // begin::Subdistrict for Kabupaten Bangka Barat
+            array('name' => "Jebus", 'district_id' => 11),
+            array('name' => "Kelapa", 'district_id' => 11),
+            array('name' => "Muntok", 'district_id' => 11),
+            array('name' => "Parittiga", 'district_id' => 11),
+            array('name' => "Simpang Teritip", 'district_id' => 11),
+            array('name' => "Tempilang", 'district_id' => 11),
+            // end::Subdistrict for Kabupaten Bangka Barat
+
+            // begin::Subdistrict for Kabupaten Bangka Selatan
+            array('name' => "Air Gegas", 'district_id' => 12),
+            array('name' => "Kepulauan Pongok", 'district_id' => 12),
+            array('name' => "Lepar Pongok", 'district_id' => 12),
+            array('name' => "Payung", 'district_id' => 12),
+            array('name' => "Pulau Besar Teritip", 'district_id' => 12),
+            array('name' => "Simpang Rimba", 'district_id' => 12),
+            array('name' => "Toboali", 'district_id' => 12),
+            array('name' => "Tukak Sadai", 'district_id' => 12),
+            // end::Subdistrict for Kabupaten Bangka Selatan
         );
         DB::table('subdistricts')->insert($bangkaBelitung);
     }
