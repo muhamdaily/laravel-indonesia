@@ -747,6 +747,18 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Taluditi", 'district_id' => 49),
             array('name' => "Wanggarasi", 'district_id' => 49),
             // end::Subdistrict for Kabupaten Pohuwato
+
+            // begin::Subdistrict for Kota Gorontalo
+            array('name' => "Dumbo Raya", 'district_id' => 50),
+            array('name' => "Dungingi", 'district_id' => 50),
+            array('name' => "Hulonthalangi", 'district_id' => 50),
+            array('name' => "Kota Barat", 'district_id' => 50),
+            array('name' => "Kota Selatan", 'district_id' => 50),
+            array('name' => "Kota Tengah", 'district_id' => 50),
+            array('name' => "Kota Timur", 'district_id' => 50),
+            array('name' => "Kota Utara", 'district_id' => 50),
+            array('name' => "Sipatana", 'district_id' => 50),
+            // end::Subdistrict for Kota Gorontalo
         );
         DB::table('subdistricts')->insert($gorontalo);
     }
