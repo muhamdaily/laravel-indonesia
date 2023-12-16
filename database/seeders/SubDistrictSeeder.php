@@ -709,6 +709,28 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tapa", 'district_id' => 47),
             array('name' => "Tilongkabila", 'district_id' => 47),
             // end::Subdistrict for Kabupaten Bone Bolango
+
+            // begin::Subdistrict for Kabupaten Gorontalo
+            array('name' => "Asparaga", 'district_id' => 48),
+            array('name' => "Batudaa", 'district_id' => 48),
+            array('name' => "Batudaa Pantai", 'district_id' => 48),
+            array('name' => "Bilato", 'district_id' => 48),
+            array('name' => "Biluhu", 'district_id' => 48),
+            array('name' => "Boliyohuto", 'district_id' => 48),
+            array('name' => "Bongomeme", 'district_id' => 48),
+            array('name' => "Dungaliyo", 'district_id' => 48),
+            array('name' => "Limboto", 'district_id' => 48),
+            array('name' => "Limboto Barat", 'district_id' => 48),
+            array('name' => "Mootilango", 'district_id' => 48),
+            array('name' => "Pulubala", 'district_id' => 48),
+            array('name' => "Tabongo", 'district_id' => 48),
+            array('name' => "Talaga Jaya", 'district_id' => 48),
+            array('name' => "Telaga", 'district_id' => 48),
+            array('name' => "Telaga Biru", 'district_id' => 48),
+            array('name' => "Tibawa", 'district_id' => 48),
+            array('name' => "Tilango", 'district_id' => 48),
+            array('name' => "Tolangohula", 'district_id' => 48),
+            // end::Subdistrict for Kabupaten Gorontalo
         );
         DB::table('subdistricts')->insert($gorontalo);
     }
