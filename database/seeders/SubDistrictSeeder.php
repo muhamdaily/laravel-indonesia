@@ -762,7 +762,7 @@ class SubDistrictSeeder extends Seeder
         );
         DB::table('subdistricts')->insert($gorontalo);
 
-        $yogyakarta = array(
+        $jambi = array(
             // begin::Subdistrict for Kabupaten Batanghari
             array('name' => "Bajubang", 'district_id' => 51),
             array('name' => "Batin XXIV", 'district_id' => 51),
@@ -774,6 +774,6 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Pemayung", 'district_id' => 51),
             // end::Subdistrict for Kabupaten Batanghari
         );
-        DB::table('subdistricts')->insert($yogyakarta);
+        DB::table('subdistricts')->insert($jambi);
     }
 }
