@@ -761,5 +761,19 @@ class SubDistrictSeeder extends Seeder
             // end::Subdistrict for Kota Gorontalo
         );
         DB::table('subdistricts')->insert($gorontalo);
+
+        $yogyakarta = array(
+            // begin::Subdistrict for Kabupaten Batanghari
+            array('name' => "Bajubang", 'district_id' => 51),
+            array('name' => "Batin XXIV", 'district_id' => 51),
+            array('name' => "Mersam", 'district_id' => 51),
+            array('name' => "Maro Sebo Ilir", 'district_id' => 51),
+            array('name' => "Maro Sebo Ulu", 'district_id' => 51),
+            array('name' => "Muara Tembesi", 'district_id' => 51),
+            array('name' => "Muara Bulian", 'district_id' => 51),
+            array('name' => "Pemayung", 'district_id' => 51),
+            // end::Subdistrict for Kabupaten Batanghari
+        );
+        DB::table('subdistricts')->insert($yogyakarta);
     }
 }
