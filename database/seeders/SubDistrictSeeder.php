@@ -731,6 +731,22 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tilango", 'district_id' => 48),
             array('name' => "Tolangohula", 'district_id' => 48),
             // end::Subdistrict for Kabupaten Gorontalo
+
+            // begin::Subdistrict for Kabupaten Pohuwato
+            array('name' => "Buntulia", 'district_id' => 49),
+            array('name' => "Dengilo", 'district_id' => 49),
+            array('name' => "Duhiadaa", 'district_id' => 49),
+            array('name' => "Lemito", 'district_id' => 49),
+            array('name' => "Marisa", 'district_id' => 49),
+            array('name' => "Paguat", 'district_id' => 49),
+            array('name' => "Patilanggio", 'district_id' => 49),
+            array('name' => "Popayato", 'district_id' => 49),
+            array('name' => "Popayato Barat", 'district_id' => 49),
+            array('name' => "Popayato Timur", 'district_id' => 49),
+            array('name' => "Randangan", 'district_id' => 49),
+            array('name' => "Taluditi", 'district_id' => 49),
+            array('name' => "Wanggarasi", 'district_id' => 49),
+            // end::Subdistrict for Kabupaten Pohuwato
         );
         DB::table('subdistricts')->insert($gorontalo);
     }
