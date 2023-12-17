@@ -804,7 +804,33 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Siulak", 'district_id' => 53),
             array('name' => "Siulak Mukai", 'district_id' => 53),
             array('name' => "Tanah Cogok", 'district_id' => 53),
-            // end::Subdistrict for Kabupaten Kerinci
+
+            // begin::Subdistrict for Kabupaten Merangin
+            array('name' => "Bangko", 'district_id' => 54),
+            array('name' => "Bangko Barat", 'district_id' => 54),
+            array('name' => "Batang Masumai", 'district_id' => 54),
+            array('name' => "Jangkat", 'district_id' => 54),
+            array('name' => "Jangkat Timur", 'district_id' => 54),
+            array('name' => "Lembah Masurai", 'district_id' => 54),
+            array('name' => "Margo Tabir", 'district_id' => 54),
+            array('name' => "Muara Siau", 'district_id' => 54),
+            array('name' => "Nalo Tantan", 'district_id' => 54),
+            array('name' => "Pamenang", 'district_id' => 54),
+            array('name' => "Pamenang Barat", 'district_id' => 54),
+            array('name' => "Pamenang Selatan", 'district_id' => 54),
+            array('name' => "Pangkalan Jambu", 'district_id' => 54),
+            array('name' => "Renah Pembarap", 'district_id' => 54),
+            array('name' => "Renah Pamenang", 'district_id' => 54),
+            array('name' => "Sungai Manau", 'district_id' => 54),
+            array('name' => "Tabir", 'district_id' => 54),
+            array('name' => "Tabir Barat", 'district_id' => 54),
+            array('name' => "Tabir Ilir", 'district_id' => 54),
+            array('name' => "Tabir Lintas", 'district_id' => 54),
+            array('name' => "Tabir Selatan", 'district_id' => 54),
+            array('name' => "Tabir Timur", 'district_id' => 54),
+            array('name' => "Tabir Ulu", 'district_id' => 54),
+            array('name' => "Tiang Pumpung", 'district_id' => 54),
+            // end::Subdistrict for Kabupaten Merangin
         );
         DB::table('subdistricts')->insert($jambi);
     }
