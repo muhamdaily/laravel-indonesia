@@ -773,6 +773,38 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Muara Bulian", 'district_id' => 51),
             array('name' => "Pemayung", 'district_id' => 51),
             // end::Subdistrict for Kabupaten Batanghari
+
+            // begin::Subdistrict for Kabupaten Bungo
+            array('name' => "Bajubang", 'district_id' => 52),
+            array('name' => "Batin XXIV", 'district_id' => 52),
+            array('name' => "Mersam", 'district_id' => 52),
+            array('name' => "Maro Sebo Ilir", 'district_id' => 52),
+            array('name' => "Maro Sebo Ulu", 'district_id' => 52),
+            array('name' => "Muara Tembesi", 'district_id' => 52),
+            array('name' => "Muara Bulian", 'district_id' => 52),
+            array('name' => "Pemayung", 'district_id' => 52),
+            // end::Subdistrict for Kabupaten Bungo
+
+            // begin::Subdistrict for Kabupaten Kerinci
+            array('name' => "Air Hangat", 'district_id' => 53),
+            array('name' => "Air Hangat Barat", 'district_id' => 53),
+            array('name' => "Air Hangat Timur", 'district_id' => 53),
+            array('name' => "Batang Merangin", 'district_id' => 53),
+            array('name' => "Bukit Kerman", 'district_id' => 53),
+            array('name' => "Danau Kerinci", 'district_id' => 53),
+            array('name' => "Danau Kerinci Barat", 'district_id' => 53),
+            array('name' => "Depati Tujuh", 'district_id' => 53),
+            array('name' => "Gunung Kerinci", 'district_id' => 53),
+            array('name' => "Gunung Raya", 'district_id' => 53),
+            array('name' => "Gunung Tujuh", 'district_id' => 53),
+            array('name' => "Kayu Aro", 'district_id' => 53),
+            array('name' => "Kayu Aro Barat", 'district_id' => 53),
+            array('name' => "Keliling Danau", 'district_id' => 53),
+            array('name' => "Sitinjau Laut", 'district_id' => 53),
+            array('name' => "Siulak", 'district_id' => 53),
+            array('name' => "Siulak Mukai", 'district_id' => 53),
+            array('name' => "Tanah Cogok", 'district_id' => 53),
+            // end::Subdistrict for Kabupaten Kerinci
         );
         DB::table('subdistricts')->insert($jambi);
     }
