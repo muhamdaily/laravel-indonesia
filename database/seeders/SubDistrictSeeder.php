@@ -831,6 +831,20 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tabir Ulu", 'district_id' => 54),
             array('name' => "Tiang Pumpung", 'district_id' => 54),
             // end::Subdistrict for Kabupaten Merangin
+
+            // begin::Subdistrict for Kabupaten Muaro Jambi
+            array('name' => "Bahar Selatan", 'district_id' => 55),
+            array('name' => "Bahar Utara", 'district_id' => 55),
+            array('name' => "Jambi Luar Kota", 'district_id' => 55),
+            array('name' => "Kumpeh", 'district_id' => 55),
+            array('name' => "Kumpeh Ulu", 'district_id' => 55),
+            array('name' => "Maro Sebo", 'district_id' => 55),
+            array('name' => "Mestong", 'district_id' => 55),
+            array('name' => "Sekernan", 'district_id' => 55),
+            array('name' => "Sungai Bahar", 'district_id' => 55),
+            array('name' => "Sungai Gelam", 'district_id' => 55),
+            array('name' => "Taman Rajo", 'district_id' => 55),
+            // end::Subdistrict for Kabupaten Muaro Jambi
         );
         DB::table('subdistricts')->insert($jambi);
     }
