@@ -845,6 +845,19 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Sungai Gelam", 'district_id' => 55),
             array('name' => "Taman Rajo", 'district_id' => 55),
             // end::Subdistrict for Kabupaten Muaro Jambi
+
+            // begin::Subdistrict for Kabupaten Sarolangun
+            array('name' => "Air Hitam", 'district_id' => 56),
+            array('name' => "Batang Asai", 'district_id' => 56),
+            array('name' => "Bathin VIII", 'district_id' => 56),
+            array('name' => "Cermin Nan Gedang", 'district_id' => 56),
+            array('name' => "Limun", 'district_id' => 56),
+            array('name' => "Mandiangin", 'district_id' => 56),
+            array('name' => "Pauh", 'district_id' => 56),
+            array('name' => "Pelawan", 'district_id' => 56),
+            array('name' => "Sarolangun", 'district_id' => 56),
+            array('name' => "Singkut", 'district_id' => 56),
+            // end::Subdistrict for Kabupaten Sarolangun
         );
         DB::table('subdistricts')->insert($jambi);
     }
