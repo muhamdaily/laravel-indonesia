@@ -858,6 +858,22 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Sarolangun", 'district_id' => 56),
             array('name' => "Singkut", 'district_id' => 56),
             // end::Subdistrict for Kabupaten Sarolangun
+
+            // begin::Subdistrict for Kabupaten Tanjung Jabung Barat
+            array('name' => "Batang Asam", 'district_id' => 57),
+            array('name' => "Bram Itam", 'district_id' => 57),
+            array('name' => "Betara", 'district_id' => 57),
+            array('name' => "Kuala Betara", 'district_id' => 57),
+            array('name' => "Merlung", 'district_id' => 57),
+            array('name' => "Muara Papalik", 'district_id' => 57),
+            array('name' => "Pengabuan", 'district_id' => 57),
+            array('name' => "Renah Mendaluh", 'district_id' => 57),
+            array('name' => "Seberang Kota", 'district_id' => 57),
+            array('name' => "Senyerang", 'district_id' => 57),
+            array('name' => "Tebing Tinggi", 'district_id' => 57),
+            array('name' => "Tungkal Ilir", 'district_id' => 57),
+            array('name' => "Tungkal Ulu", 'district_id' => 57),
+            // end::Subdistrict for Kabupaten Tanjung Jabung Barat
         );
         DB::table('subdistricts')->insert($jambi);
     }
