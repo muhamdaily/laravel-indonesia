@@ -874,6 +874,20 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tungkal Ilir", 'district_id' => 57),
             array('name' => "Tungkal Ulu", 'district_id' => 57),
             // end::Subdistrict for Kabupaten Tanjung Jabung Barat
+
+            // begin::Subdistrict for Kabupaten Tanjung Jabung Timur
+            array('name' => "Berbak", 'district_id' => 58),
+            array('name' => "Dendang", 'district_id' => 58),
+            array('name' => "Geragai", 'district_id' => 58),
+            array('name' => "Kuala Jambi", 'district_id' => 58),
+            array('name' => "Mendahara", 'district_id' => 58),
+            array('name' => "Mendahara Ulu", 'district_id' => 58),
+            array('name' => "Muara Sabak Barat", 'district_id' => 58),
+            array('name' => "Muara Sabak Timur", 'district_id' => 58),
+            array('name' => "Nipah Panjang", 'district_id' => 58),
+            array('name' => "Rantau Rasau", 'district_id' => 58),
+            array('name' => "Sadu", 'district_id' => 58),
+            // end::Subdistrict for Kabupaten Tanjung Jabung Timur
         );
         DB::table('subdistricts')->insert($jambi);
     }
