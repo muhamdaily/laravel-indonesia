@@ -917,6 +917,17 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Pelayangan", 'district_id' => 60),
             array('name' => "Telanaipura", 'district_id' => 60),
             // end::Subdistrict for Kota Jambi
+
+            // begin::Subdistrict for Kota Sungai Penuh
+            array('name' => "Hamparan Rawang", 'district_id' => 60),
+            array('name' => "Koto Baru", 'district_id' => 61),
+            array('name' => "Kumun Debai", 'district_id' => 61),
+            array('name' => "Pesisir Bukit", 'district_id' => 61),
+            array('name' => "Pondok Tinggi", 'district_id' => 61),
+            array('name' => "Sungai Bungkal", 'district_id' => 61),
+            array('name' => "Sungai Penuh", 'district_id' => 61),
+            array('name' => "Tanah Kampung", 'district_id' => 61),
+            // end::Subdistrict for Kota Sungai Penuh
         );
         DB::table('subdistricts')->insert($jambi);
     }
