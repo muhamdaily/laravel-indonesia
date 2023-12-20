@@ -903,6 +903,20 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tebo Ulu", 'district_id' => 59),
             array('name' => "Tengah Ilir", 'district_id' => 59),
             // end::Subdistrict for Kabupaten Tebo
+
+            // begin::Subdistrict for Kota Jambi
+            array('name' => "Alam Barajo", 'district_id' => 60),
+            array('name' => "Danau Sipin", 'district_id' => 60),
+            array('name' => "Danau Teluk", 'district_id' => 60),
+            array('name' => "Jambi Selatan", 'district_id' => 60),
+            array('name' => "Jambi Timur", 'district_id' => 60),
+            array('name' => "Jelutung", 'district_id' => 60),
+            array('name' => "Kota Baru", 'district_id' => 60),
+            array('name' => "Paal Merah", 'district_id' => 60),
+            array('name' => "Pasar Jambi", 'district_id' => 60),
+            array('name' => "Pelayangan", 'district_id' => 60),
+            array('name' => "Telanaipura", 'district_id' => 60),
+            // end::Subdistrict for Kota Jambi
         );
         DB::table('subdistricts')->insert($jambi);
     }
