@@ -930,5 +930,42 @@ class SubDistrictSeeder extends Seeder
             // end::Subdistrict for Kota Sungai Penuh
         );
         DB::table('subdistricts')->insert($jambi);
+
+        $jabar = array(
+            // begin::Subdistrict for Kabupaten Bandung
+            array('name' => "Arjasari", 'district_id' => 62),
+            array('name' => "Baleendah", 'district_id' => 62),
+            array('name' => "Banjaran", 'district_id' => 62),
+            array('name' => "Bojongsoang", 'district_id' => 62),
+            array('name' => "Cangkuang", 'district_id' => 62),
+            array('name' => "Cicalengka", 'district_id' => 62),
+            array('name' => "Cikancung", 'district_id' => 62),
+            array('name' => "Cilengkrang", 'district_id' => 62),
+            array('name' => "Cileunyi", 'district_id' => 62),
+            array('name' => "Cimaung", 'district_id' => 62),
+            array('name' => "Cimenyan", 'district_id' => 62),
+            array('name' => "Ciparay", 'district_id' => 62),
+            array('name' => "Ciwidey", 'district_id' => 62),
+            array('name' => "Dayeuhkolot", 'district_id' => 62),
+            array('name' => "Ibun", 'district_id' => 62),
+            array('name' => "Katapang", 'district_id' => 62),
+            array('name' => "Kertasari", 'district_id' => 62),
+            array('name' => "Kutawaringin", 'district_id' => 62),
+            array('name' => "Majalaya", 'district_id' => 62),
+            array('name' => "Margaasih", 'district_id' => 62),
+            array('name' => "Margahayu", 'district_id' => 62),
+            array('name' => "Nagreg", 'district_id' => 62),
+            array('name' => "Pacet", 'district_id' => 62),
+            array('name' => "Pameungpeuk", 'district_id' => 62),
+            array('name' => "Pangalengan", 'district_id' => 62),
+            array('name' => "Paseh", 'district_id' => 62),
+            array('name' => "Pasirjambu", 'district_id' => 62),
+            array('name' => "Rancabali", 'district_id' => 62),
+            array('name' => "Rancaekek", 'district_id' => 62),
+            array('name' => "Solokanjeruk", 'district_id' => 62),
+            array('name' => "Soreang", 'district_id' => 62),
+            // end::Subdistrict for Kabupaten Bandung
+        );
+        DB::table('subdistricts')->insert($jabar);
     }
 }
