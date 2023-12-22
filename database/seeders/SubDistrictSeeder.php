@@ -965,6 +965,25 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Solokanjeruk", 'district_id' => 62),
             array('name' => "Soreang", 'district_id' => 62),
             // end::Subdistrict for Kabupaten Bandung
+
+            // begin::Subdistrict for Kabupaten Bandung Barat
+            array('name' => "Batujajar", 'district_id' => 63),
+            array('name' => "Cihampelas", 'district_id' => 63),
+            array('name' => "Cikalongwetan", 'district_id' => 63),
+            array('name' => "Cililin", 'district_id' => 63),
+            array('name' => "Cipatat", 'district_id' => 63),
+            array('name' => "Cipeundeuy", 'district_id' => 63),
+            array('name' => "Cipongkor", 'district_id' => 63),
+            array('name' => "Cisarua", 'district_id' => 63),
+            array('name' => "Gununghalu", 'district_id' => 63),
+            array('name' => "Lembang", 'district_id' => 63),
+            array('name' => "Ngamprah", 'district_id' => 63),
+            array('name' => "Padalarang", 'district_id' => 63),
+            array('name' => "Parongpong", 'district_id' => 63),
+            array('name' => "Rongga", 'district_id' => 63),
+            array('name' => "Saguling", 'district_id' => 63),
+            array('name' => "Sindangkerta", 'district_id' => 63),
+            // end::Subdistrict for Kabupaten Bandung Barat
         );
         DB::table('subdistricts')->insert($jabar);
     }
