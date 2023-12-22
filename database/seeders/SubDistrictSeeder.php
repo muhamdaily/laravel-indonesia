@@ -984,6 +984,32 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Saguling", 'district_id' => 63),
             array('name' => "Sindangkerta", 'district_id' => 63),
             // end::Subdistrict for Kabupaten Bandung Barat
+
+            // begin::Subdistrict for Kabupaten Bekasi
+            array('name' => "Babelan", 'district_id' => 64),
+            array('name' => "Bojongmangu", 'district_id' => 64),
+            array('name' => "Cabangbungin", 'district_id' => 64),
+            array('name' => "Cibarusah", 'district_id' => 64),
+            array('name' => "Cibitung", 'district_id' => 64),
+            array('name' => "Cikarang Barat", 'district_id' => 64),
+            array('name' => "Cikarang Pusat", 'district_id' => 64),
+            array('name' => "Cikarang Selatan", 'district_id' => 64),
+            array('name' => "Cikarang Timur", 'district_id' => 64),
+            array('name' => "Cikarang Utara", 'district_id' => 64),
+            array('name' => "Karangbahagia", 'district_id' => 64),
+            array('name' => "Kedungwaringin", 'district_id' => 64),
+            array('name' => "Muaragembong", 'district_id' => 64),
+            array('name' => "Pebayuran", 'district_id' => 64),
+            array('name' => "Serang Baru", 'district_id' => 64),
+            array('name' => "Setu", 'district_id' => 64),
+            array('name' => "Sukakarya", 'district_id' => 64),
+            array('name' => "Sukatani", 'district_id' => 64),
+            array('name' => "Sukawangi", 'district_id' => 64),
+            array('name' => "Tambelang", 'district_id' => 64),
+            array('name' => "Tambun Selatan", 'district_id' => 64),
+            array('name' => "Tambun Utara", 'district_id' => 64),
+            array('name' => "Tarumajaya", 'district_id' => 64),
+            // end::Subdistrict for Kabupaten Bekasi
         );
         DB::table('subdistricts')->insert($jabar);
     }
