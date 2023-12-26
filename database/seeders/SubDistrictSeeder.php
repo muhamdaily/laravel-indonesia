@@ -1053,6 +1053,36 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tenjo", 'district_id' => 65),
             array('name' => "Tenjolaya", 'district_id' => 65),
             // end::Subdistrict for Kabupaten Bogor
+
+            // begin::Subdistrict for Kabupaten Ciamis
+            array('name' => "Banjaranyar", 'district_id' => 65),
+            array('name' => "Banjarsari", 'district_id' => 65),
+            array('name' => "Baregbeg", 'district_id' => 65),
+            array('name' => "Ciamis", 'district_id' => 65),
+            array('name' => "Cidolog", 'district_id' => 65),
+            array('name' => "Cihaurbeuti", 'district_id' => 65),
+            array('name' => "Cijeungjing", 'district_id' => 65),
+            array('name' => "Cikoneng", 'district_id' => 65),
+            array('name' => "Cimaragas", 'district_id' => 65),
+            array('name' => "Cipaku", 'district_id' => 65),
+            array('name' => "Cisaga", 'district_id' => 65),
+            array('name' => "Jatinagara", 'district_id' => 65),
+            array('name' => "Kawali", 'district_id' => 65),
+            array('name' => "Lakbok", 'district_id' => 65),
+            array('name' => "Lumbung", 'district_id' => 65),
+            array('name' => "Pamarican", 'district_id' => 65),
+            array('name' => "Panjalu", 'district_id' => 65),
+            array('name' => "Panawangan", 'district_id' => 65),
+            array('name' => "Panumbangan", 'district_id' => 65),
+            array('name' => "Purwadadi", 'district_id' => 65),
+            array('name' => "Rajadesa", 'district_id' => 65),
+            array('name' => "Rancah", 'district_id' => 65),
+            array('name' => "Sadananya", 'district_id' => 65),
+            array('name' => "Sindangkasih", 'district_id' => 65),
+            array('name' => "Sukadana", 'district_id' => 65),
+            array('name' => "Sukamantri", 'district_id' => 65),
+            array('name' => "Tambaksari", 'district_id' => 65),
+            // end::Subdistrict for Kabupaten Ciamis
         );
         DB::table('subdistricts')->insert($jabar);
     }
