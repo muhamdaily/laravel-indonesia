@@ -1206,6 +1206,40 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tarogong Kidul", 'district_id' => 69),
             array('name' => "Wanaraja", 'district_id' => 69),
             // end::Subdistrict for Kabupaten Garut
+
+            // begin::Subdistrict for Kabupaten Indramayu
+            array('name' => "Anjatan", 'district_id' => 70),
+            array('name' => "Arahan", 'district_id' => 70),
+            array('name' => "Balongan", 'district_id' => 70),
+            array('name' => "Bangodua", 'district_id' => 70),
+            array('name' => "Bongas", 'district_id' => 70),
+            array('name' => "Cantigi", 'district_id' => 70),
+            array('name' => "Cikedung", 'district_id' => 70),
+            array('name' => "Gabuswetan", 'district_id' => 70),
+            array('name' => "Gantar", 'district_id' => 70),
+            array('name' => "Haurgeulis", 'district_id' => 70),
+            array('name' => "Indramayu", 'district_id' => 70),
+            array('name' => "Jatibarang", 'district_id' => 70),
+            array('name' => "Juntinyuat", 'district_id' => 70),
+            array('name' => "Kandanghaur", 'district_id' => 70),
+            array('name' => "Karangampel", 'district_id' => 70),
+            array('name' => "Kedokan Bunder", 'district_id' => 70),
+            array('name' => "Kertasemaya", 'district_id' => 70),
+            array('name' => "Krangkeng", 'district_id' => 70),
+            array('name' => "Kroya", 'district_id' => 70),
+            array('name' => "Lelea", 'district_id' => 70),
+            array('name' => "Lohbener", 'district_id' => 70),
+            array('name' => "Losarang", 'district_id' => 70),
+            array('name' => "Pasekan", 'district_id' => 70),
+            array('name' => "Patrol", 'district_id' => 70),
+            array('name' => "Sindang", 'district_id' => 70),
+            array('name' => "Sliyeg", 'district_id' => 70),
+            array('name' => "Sukagumiwang", 'district_id' => 70),
+            array('name' => "Sukra", 'district_id' => 70),
+            array('name' => "Terisi", 'district_id' => 70),
+            array('name' => "Tukdana", 'district_id' => 70),
+            array('name' => "Widasari", 'district_id' => 70),
+            // end::Subdistrict for Kabupaten Indramayu
         );
         DB::table('subdistricts')->insert($jabar);
     }
