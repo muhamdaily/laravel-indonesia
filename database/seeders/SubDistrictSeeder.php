@@ -1083,6 +1083,10 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Sukamantri", 'district_id' => 66),
             array('name' => "Tambaksari", 'district_id' => 66),
             // end::Subdistrict for Kabupaten Ciamis
+
+            // begin::Subdistrict for Kabupaten Cianjur
+            array('name' => "Banjaranyar", 'district_id' => 67),
+            // end::Subdistrict for Kabupaten Cianjur
         );
         DB::table('subdistricts')->insert($jabar);
     }
