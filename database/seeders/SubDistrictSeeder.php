@@ -1588,6 +1588,12 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Bogor Utara", 'district_id' => 83),
             array('name' => "Tanahsareal", 'district_id' => 83),
             // end::Subdistrict for Kota Bogor
+
+            // begin::Subdistrict for Kota Cimahi
+            array('name' => "Cimahi Selatan", 'district_id' => 84),
+            array('name' => "Cimahi Tengah", 'district_id' => 84),
+            array('name' => "Cimahi Utara", 'district_id' => 84),
+            // end::Subdistrict for Kota Cimahi
         );
         DB::table('subdistricts')->insert($jabar);
     }
