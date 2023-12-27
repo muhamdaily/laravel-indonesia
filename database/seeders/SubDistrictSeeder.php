@@ -1273,6 +1273,41 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tirtajaya", 'district_id' => 71),
             array('name' => "Tirtamulya", 'district_id' => 71),
             // end::Subdistrict for Kabupaten Karawang
+
+            // begin::Subdistrict for Kabupaten Kuningan
+            array('name' => "Ciawigebang", 'district_id' => 72),
+            array('name' => "Cibeureum", 'district_id' => 72),
+            array('name' => "Cibingbin", 'district_id' => 72),
+            array('name' => "Cidahu", 'district_id' => 72),
+            array('name' => "Cigandamekar", 'district_id' => 72),
+            array('name' => "Cigugur", 'district_id' => 72),
+            array('name' => "Cilebak", 'district_id' => 72),
+            array('name' => "Cilimus", 'district_id' => 72),
+            array('name' => "Cimahi", 'district_id' => 72),
+            array('name' => "Ciniru", 'district_id' => 72),
+            array('name' => "Cipicung", 'district_id' => 72),
+            array('name' => "Ciwaru", 'district_id' => 72),
+            array('name' => "Darma", 'district_id' => 72),
+            array('name' => "Garawangi", 'district_id' => 72),
+            array('name' => "Hantara", 'district_id' => 72),
+            array('name' => "Jalaksana", 'district_id' => 72),
+            array('name' => "Japara", 'district_id' => 72),
+            array('name' => "Kadugede", 'district_id' => 72),
+            array('name' => "Kalimanggis", 'district_id' => 72),
+            array('name' => "Karangkancana", 'district_id' => 72),
+            array('name' => "Kramatmulya", 'district_id' => 72),
+            array('name' => "Kuningan", 'district_id' => 72),
+            array('name' => "Lebakwangi", 'district_id' => 72),
+            array('name' => "Luragung", 'district_id' => 72),
+            array('name' => "Maleber", 'district_id' => 72),
+            array('name' => "Mandirancan", 'district_id' => 72),
+            array('name' => "Nusaherang", 'district_id' => 72),
+            array('name' => "Pancalang", 'district_id' => 72),
+            array('name' => "Pasawahan", 'district_id' => 72),
+            array('name' => "Selajambe", 'district_id' => 72),
+            array('name' => "Sindangagung", 'district_id' => 72),
+            array('name' => "Subang", 'district_id' => 72),
+            // end::Subdistrict for Kabupaten Kuningan
         );
         DB::table('subdistricts')->insert($jabar);
     }
