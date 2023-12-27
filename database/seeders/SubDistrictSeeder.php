@@ -1308,6 +1308,35 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Sindangagung", 'district_id' => 72),
             array('name' => "Subang", 'district_id' => 72),
             // end::Subdistrict for Kabupaten Kuningan
+
+            // begin::Subdistrict for Kabupaten Majalengka
+            array('name' => "Argapura", 'district_id' => 73),
+            array('name' => "Banjaran", 'district_id' => 73),
+            array('name' => "Bantarujeg", 'district_id' => 73),
+            array('name' => "Cigasong", 'district_id' => 73),
+            array('name' => "Cikijing", 'district_id' => 73),
+            array('name' => "Cingambul", 'district_id' => 73),
+            array('name' => "Dawuan", 'district_id' => 73),
+            array('name' => "Jatitujuh", 'district_id' => 73),
+            array('name' => "Jatiwangi", 'district_id' => 73),
+            array('name' => "Kadipaten", 'district_id' => 73),
+            array('name' => "Kasokandel", 'district_id' => 73),
+            array('name' => "Kertajati", 'district_id' => 73),
+            array('name' => "Lemahsugih", 'district_id' => 73),
+            array('name' => "Leuwimunding", 'district_id' => 73),
+            array('name' => "Ligung", 'district_id' => 73),
+            array('name' => "Maja", 'district_id' => 73),
+            array('name' => "Majalengka", 'district_id' => 73),
+            array('name' => "Malausma", 'district_id' => 73),
+            array('name' => "Palasah", 'district_id' => 73),
+            array('name' => "Panyingkiran", 'district_id' => 73),
+            array('name' => "Rajagaluh", 'district_id' => 73),
+            array('name' => "Sindang", 'district_id' => 73),
+            array('name' => "Sindangwangi", 'district_id' => 73),
+            array('name' => "Sukahaji", 'district_id' => 73),
+            array('name' => "Sumberjaya", 'district_id' => 73),
+            array('name' => "Talaga", 'district_id' => 73),
+            // end::Subdistrict for Kabupaten Majalengka
         );
         DB::table('subdistricts')->insert($jabar);
     }
