@@ -1602,6 +1602,20 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Lemahwungkuk", 'district_id' => 85),
             array('name' => "Pekalipan", 'district_id' => 85),
             // end::Subdistrict for Kota Cirebon
+
+            // begin::Subdistrict for Kota Depok
+            array('name' => "Beji", 'district_id' => 86),
+            array('name' => "Bojongsari", 'district_id' => 86),
+            array('name' => "Cilodong", 'district_id' => 86),
+            array('name' => "Cimanggis", 'district_id' => 86),
+            array('name' => "Cinere", 'district_id' => 86),
+            array('name' => "Cipayung", 'district_id' => 86),
+            array('name' => "Limo", 'district_id' => 86),
+            array('name' => "Pancoran Mas", 'district_id' => 86),
+            array('name' => "Sawangan", 'district_id' => 86),
+            array('name' => "Sukmajaya", 'district_id' => 86),
+            array('name' => "Tapos", 'district_id' => 86),
+            // end::Subdistrict for Kota Depok
         );
         DB::table('subdistricts')->insert($jabar);
     }
