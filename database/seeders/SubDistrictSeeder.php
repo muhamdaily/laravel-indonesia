@@ -1524,6 +1524,39 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tanjungjaya", 'district_id' => 79),
             array('name' => "Taraju", 'district_id' => 79),
             // end::Subdistrict for Kabupaten Tasikmalaya
+
+            // begin::Subdistrict for Kota Bandung
+            array('name' => "Andir", 'district_id' => 80),
+            array('name' => "Astanaanyar", 'district_id' => 80),
+            array('name' => "Antapani", 'district_id' => 80),
+            array('name' => "Arcamanik", 'district_id' => 80),
+            array('name' => "Babakan Ciparay", 'district_id' => 80),
+            array('name' => "Bandung Kidul", 'district_id' => 80),
+            array('name' => "Bandung Kulon", 'district_id' => 80),
+            array('name' => "Bandung Wetan", 'district_id' => 80),
+            array('name' => "Batununggal", 'district_id' => 80),
+            array('name' => "Bojongloa Kaler", 'district_id' => 80),
+            array('name' => "Bojongloa Kidul", 'district_id' => 80),
+            array('name' => "Buahbatu", 'district_id' => 80),
+            array('name' => "Cibeunying Kaler", 'district_id' => 80),
+            array('name' => "Cibeunying Kidul", 'district_id' => 80),
+            array('name' => "Cibiru", 'district_id' => 80),
+            array('name' => "Cicendo", 'district_id' => 80),
+            array('name' => "Cidadap", 'district_id' => 80),
+            array('name' => "Cinambo", 'district_id' => 80),
+            array('name' => "Coblong", 'district_id' => 80),
+            array('name' => "Gedebage", 'district_id' => 80),
+            array('name' => "Kiaracondong", 'district_id' => 80),
+            array('name' => "Lengkong", 'district_id' => 80),
+            array('name' => "Mandalajati", 'district_id' => 80),
+            array('name' => "Panyileukan", 'district_id' => 80),
+            array('name' => "Rancasari", 'district_id' => 80),
+            array('name' => "Regol", 'district_id' => 80),
+            array('name' => "Sukajadi", 'district_id' => 80),
+            array('name' => "Sukasari", 'district_id' => 80),
+            array('name' => "Sumur Bandung", 'district_id' => 80),
+            array('name' => "Ujungberung", 'district_id' => 80),
+            // end::Subdistrict for Kota Bandung
         );
         DB::table('subdistricts')->insert($jabar);
     }
