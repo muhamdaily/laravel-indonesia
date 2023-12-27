@@ -1370,6 +1370,39 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tegalwaru", 'district_id' => 75),
             array('name' => "Wanayasa", 'district_id' => 75),
             // end::Subdistrict for Kabupaten Purwakarta
+
+            // begin::Subdistrict for Kabupaten Subang
+            array('name' => "Binong", 'district_id' => 76),
+            array('name' => "Blanakan", 'district_id' => 76),
+            array('name' => "Ciasem", 'district_id' => 76),
+            array('name' => "Ciater", 'district_id' => 76),
+            array('name' => "Cibogo", 'district_id' => 76),
+            array('name' => "Cijambe", 'district_id' => 76),
+            array('name' => "Cikaum", 'district_id' => 76),
+            array('name' => "Cipeundeuy", 'district_id' => 76),
+            array('name' => "Cipunagara", 'district_id' => 76),
+            array('name' => "Cisalak", 'district_id' => 76),
+            array('name' => "Compreng", 'district_id' => 76),
+            array('name' => "Dawuan", 'district_id' => 76),
+            array('name' => "Jalancagak", 'district_id' => 76),
+            array('name' => "Kalijati", 'district_id' => 76),
+            array('name' => "Kasomalang", 'district_id' => 76),
+            array('name' => "Legonkulon", 'district_id' => 76),
+            array('name' => "Pabuaran", 'district_id' => 76),
+            array('name' => "Pagaden", 'district_id' => 76),
+            array('name' => "Pagaden Barat", 'district_id' => 76),
+            array('name' => "Pamanukan", 'district_id' => 76),
+            array('name' => "Patokbeusi", 'district_id' => 76),
+            array('name' => "Purwadadi", 'district_id' => 76),
+            array('name' => "Pusakajaya", 'district_id' => 76),
+            array('name' => "Pusakanagara", 'district_id' => 76),
+            array('name' => "Sagalaherang", 'district_id' => 76),
+            array('name' => "Serangpanjang", 'district_id' => 76),
+            array('name' => "Subang", 'district_id' => 76),
+            array('name' => "Sukasari", 'district_id' => 76),
+            array('name' => "Tambakdahan", 'district_id' => 76),
+            array('name' => "Tanjungsiang", 'district_id' => 76),
+            // end::Subdistrict for Kabupaten Subang
         );
         DB::table('subdistricts')->insert($jabar);
     }
