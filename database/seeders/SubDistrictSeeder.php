@@ -1337,6 +1337,19 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Sumberjaya", 'district_id' => 73),
             array('name' => "Talaga", 'district_id' => 73),
             // end::Subdistrict for Kabupaten Majalengka
+
+            // begin::Subdistrict for Kabupaten Pangandaran
+            array('name' => "Cigugur", 'district_id' => 74),
+            array('name' => "Cijulang", 'district_id' => 74),
+            array('name' => "Cimerak", 'district_id' => 74),
+            array('name' => "Kalipucang", 'district_id' => 74),
+            array('name' => "Langkaplancar", 'district_id' => 74),
+            array('name' => "Mangunjaya", 'district_id' => 74),
+            array('name' => "Padaherang", 'district_id' => 74),
+            array('name' => "Pangandaran", 'district_id' => 74),
+            array('name' => "Parigi", 'district_id' => 74),
+            array('name' => "Sidamulih", 'district_id' => 74),
+            // end::Subdistrict for Kabupaten Pangandaran
         );
         DB::table('subdistricts')->insert($jabar);
     }
