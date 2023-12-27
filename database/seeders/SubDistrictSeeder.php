@@ -1564,6 +1564,21 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Pataruman", 'district_id' => 81),
             array('name' => "Purwaharja", 'district_id' => 81),
             // end::Subdistrict for Kota Banjar
+
+            // begin::Subdistrict for Kota Bekasi
+            array('name' => "Bantargebang", 'district_id' => 82),
+            array('name' => "Bekasi Barat", 'district_id' => 82),
+            array('name' => "Bekasi Selatan", 'district_id' => 82),
+            array('name' => "Bekasi Timur", 'district_id' => 82),
+            array('name' => "Bekasi Utara", 'district_id' => 82),
+            array('name' => "Jatiasih", 'district_id' => 82),
+            array('name' => "Jatisampurna", 'district_id' => 82),
+            array('name' => "Medansatria", 'district_id' => 82),
+            array('name' => "Mustikajaya", 'district_id' => 82),
+            array('name' => "Pondokgede", 'district_id' => 82),
+            array('name' => "Pondokmelati", 'district_id' => 82),
+            array('name' => "Rawalumbu", 'district_id' => 82),
+            // end::Subdistrict for Kota Bekasi
         );
         DB::table('subdistricts')->insert($jabar);
     }
