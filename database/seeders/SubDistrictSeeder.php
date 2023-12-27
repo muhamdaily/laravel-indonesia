@@ -1240,6 +1240,39 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tukdana", 'district_id' => 70),
             array('name' => "Widasari", 'district_id' => 70),
             // end::Subdistrict for Kabupaten Indramayu
+
+            // begin::Subdistrict for Kabupaten Karawang
+            array('name' => "Banyusari", 'district_id' => 71),
+            array('name' => "Batujaya", 'district_id' => 71),
+            array('name' => "Ciampel", 'district_id' => 71),
+            array('name' => "Cibuaya", 'district_id' => 71),
+            array('name' => "Cikampek", 'district_id' => 71),
+            array('name' => "Cilamaya Kulon", 'district_id' => 71),
+            array('name' => "Cilamaya Wetan", 'district_id' => 71),
+            array('name' => "Cilebar", 'district_id' => 71),
+            array('name' => "Jatisari", 'district_id' => 71),
+            array('name' => "Jayakarta", 'district_id' => 71),
+            array('name' => "Karawang Barat", 'district_id' => 71),
+            array('name' => "Karawang Timur", 'district_id' => 71),
+            array('name' => "Klari", 'district_id' => 71),
+            array('name' => "Kotabaru", 'district_id' => 71),
+            array('name' => "Kutawaluya", 'district_id' => 71),
+            array('name' => "Lemahabang", 'district_id' => 71),
+            array('name' => "Majalaya", 'district_id' => 71),
+            array('name' => "Pakisjaya", 'district_id' => 71),
+            array('name' => "Pangkalan", 'district_id' => 71),
+            array('name' => "Pedes", 'district_id' => 71),
+            array('name' => "Purwasari", 'district_id' => 71),
+            array('name' => "Rawamerta", 'district_id' => 71),
+            array('name' => "Rengasdengklok", 'district_id' => 71),
+            array('name' => "Tegalwaru", 'district_id' => 71),
+            array('name' => "Telagasari", 'district_id' => 71),
+            array('name' => "Telukjambe Barat", 'district_id' => 71),
+            array('name' => "Telukjambe Timur", 'district_id' => 71),
+            array('name' => "Tempuran", 'district_id' => 71),
+            array('name' => "Tirtajaya", 'district_id' => 71),
+            array('name' => "Tirtamulya", 'district_id' => 71),
+            // end::Subdistrict for Kabupaten Karawang
         );
         DB::table('subdistricts')->insert($jabar);
     }
