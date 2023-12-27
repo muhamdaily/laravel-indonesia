@@ -1350,6 +1350,26 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Parigi", 'district_id' => 74),
             array('name' => "Sidamulih", 'district_id' => 74),
             // end::Subdistrict for Kabupaten Pangandaran
+
+            // begin::Subdistrict for Kabupaten Purwakarta
+            array('name' => "Babakancikao", 'district_id' => 75),
+            array('name' => "Bojong", 'district_id' => 75),
+            array('name' => "Bungursari", 'district_id' => 75),
+            array('name' => "Campaka", 'district_id' => 75),
+            array('name' => "Cibatu", 'district_id' => 75),
+            array('name' => "Darangdan", 'district_id' => 75),
+            array('name' => "Jatiluhur", 'district_id' => 75),
+            array('name' => "Kiarapedes", 'district_id' => 75),
+            array('name' => "Maniis", 'district_id' => 75),
+            array('name' => "Pasawahan", 'district_id' => 75),
+            array('name' => "Plered", 'district_id' => 75),
+            array('name' => "Pondoksalam", 'district_id' => 75),
+            array('name' => "Purwakarta", 'district_id' => 75),
+            array('name' => "Sukasari", 'district_id' => 75),
+            array('name' => "Sukatani", 'district_id' => 75),
+            array('name' => "Tegalwaru", 'district_id' => 75),
+            array('name' => "Wanayasa", 'district_id' => 75),
+            // end::Subdistrict for Kabupaten Purwakarta
         );
         DB::table('subdistricts')->insert($jabar);
     }
