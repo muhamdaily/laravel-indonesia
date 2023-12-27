@@ -1641,5 +1641,31 @@ class SubDistrictSeeder extends Seeder
             // end::Subdistrict for Kota Tasikmalaya
         );
         DB::table('subdistricts')->insert($jabar);
+
+        $jateng = array(
+            // begin::Subdistrict for Kabupaten Banjarnegara
+            array('name' => "Banjarmangu", 'district_id' => 89),
+            array('name' => "Banjarnegara", 'district_id' => 89),
+            array('name' => "Batur", 'district_id' => 89),
+            array('name' => "Bawang", 'district_id' => 89),
+            array('name' => "Kalibening", 'district_id' => 89),
+            array('name' => "Karangkobar", 'district_id' => 89),
+            array('name' => "Madukara", 'district_id' => 89),
+            array('name' => "Mandiraja", 'district_id' => 89),
+            array('name' => "Pagedongan", 'district_id' => 89),
+            array('name' => "Pagentan", 'district_id' => 89),
+            array('name' => "Pandanarum", 'district_id' => 89),
+            array('name' => "Pejawaran", 'district_id' => 89),
+            array('name' => "Punggelan", 'district_id' => 89),
+            array('name' => "Purwanegara", 'district_id' => 89),
+            array('name' => "Purwareja Klampok", 'district_id' => 89),
+            array('name' => "Rakit", 'district_id' => 89),
+            array('name' => "Sigaluh", 'district_id' => 89),
+            array('name' => "Susukan", 'district_id' => 89),
+            array('name' => "Wanadadi", 'district_id' => 89),
+            array('name' => "Wanayasa", 'district_id' => 89),
+            // end::Subdistrict for Kabupaten Banjarnegara
+        );
+        DB::table('subdistricts')->insert($jateng);
     }
 }
