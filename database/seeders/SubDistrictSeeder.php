@@ -1579,6 +1579,15 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Pondokmelati", 'district_id' => 82),
             array('name' => "Rawalumbu", 'district_id' => 82),
             // end::Subdistrict for Kota Bekasi
+
+            // begin::Subdistrict for Kota Bogor
+            array('name' => "Bogor Barat", 'district_id' => 83),
+            array('name' => "Bogor Selatan", 'district_id' => 83),
+            array('name' => "Bogor Tengah", 'district_id' => 83),
+            array('name' => "Bogor Timur", 'district_id' => 83),
+            array('name' => "Bogor Utara", 'district_id' => 83),
+            array('name' => "Tanahsareal", 'district_id' => 83),
+            // end::Subdistrict for Kota Bogor
         );
         DB::table('subdistricts')->insert($jabar);
     }
