@@ -1626,6 +1626,19 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Lembursitu", 'district_id' => 87),
             array('name' => "Warudoyong", 'district_id' => 87),
             // end::Subdistrict for Kota Sukabumi
+
+            // begin::Subdistrict for Kota Tasikmalaya
+            array('name' => "Bungursari", 'district_id' => 88),
+            array('name' => "Cibeureum", 'district_id' => 88),
+            array('name' => "Cihideung", 'district_id' => 88),
+            array('name' => "Cipedes", 'district_id' => 88),
+            array('name' => "Indihiang", 'district_id' => 88),
+            array('name' => "Kawalu", 'district_id' => 88),
+            array('name' => "Mangkubumi", 'district_id' => 88),
+            array('name' => "Purbaratu", 'district_id' => 88),
+            array('name' => "Tamansari", 'district_id' => 88),
+            array('name' => "Tawang", 'district_id' => 88),
+            // end::Subdistrict for Kota Tasikmalaya
         );
         DB::table('subdistricts')->insert($jabar);
     }
