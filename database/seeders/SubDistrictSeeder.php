@@ -1557,6 +1557,13 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Sumur Bandung", 'district_id' => 80),
             array('name' => "Ujungberung", 'district_id' => 80),
             // end::Subdistrict for Kota Bandung
+
+            // begin::Subdistrict for Kota Banjar
+            array('name' => "Banjar", 'district_id' => 81),
+            array('name' => "Langensari", 'district_id' => 81),
+            array('name' => "Pataruman", 'district_id' => 81),
+            array('name' => "Purwaharja", 'district_id' => 81),
+            // end::Subdistrict for Kota Banjar
         );
         DB::table('subdistricts')->insert($jabar);
     }
