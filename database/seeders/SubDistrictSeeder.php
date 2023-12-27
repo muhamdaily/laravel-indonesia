@@ -1594,6 +1594,14 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Cimahi Tengah", 'district_id' => 84),
             array('name' => "Cimahi Utara", 'district_id' => 84),
             // end::Subdistrict for Kota Cimahi
+
+            // begin::Subdistrict for Kota Cirebon
+            array('name' => "Harjamukti", 'district_id' => 85),
+            array('name' => "Kejaksan", 'district_id' => 85),
+            array('name' => "Kesambi", 'district_id' => 85),
+            array('name' => "Lemahwungkuk", 'district_id' => 85),
+            array('name' => "Pekalipan", 'district_id' => 85),
+            // end::Subdistrict for Kota Cirebon
         );
         DB::table('subdistricts')->insert($jabar);
     }
