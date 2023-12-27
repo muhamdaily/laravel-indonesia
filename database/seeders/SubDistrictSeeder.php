@@ -1616,6 +1616,16 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Sukmajaya", 'district_id' => 86),
             array('name' => "Tapos", 'district_id' => 86),
             // end::Subdistrict for Kota Depok
+
+            // begin::Subdistrict for Kota Sukabumi
+            array('name' => "Baros", 'district_id' => 87),
+            array('name' => "Cibeureum", 'district_id' => 87),
+            array('name' => "Cikole", 'district_id' => 87),
+            array('name' => "Citamiang", 'district_id' => 87),
+            array('name' => "Gunungpuyuh", 'district_id' => 87),
+            array('name' => "Lembursitu", 'district_id' => 87),
+            array('name' => "Warudoyong", 'district_id' => 87),
+            // end::Subdistrict for Kota Sukabumi
         );
         DB::table('subdistricts')->insert($jabar);
     }
