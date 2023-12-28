@@ -1777,6 +1777,33 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tonjong", 'district_id' => 94),
             array('name' => "Wanasari", 'district_id' => 94),
             // end::Subdistrict for Kabupaten Brebes
+
+            // begin::Subdistrict for Kabupaten Cilacap
+            array('name' => "Adipala", 'district_id' => 95),
+            array('name' => "Bantarsari", 'district_id' => 95),
+            array('name' => "Binangun", 'district_id' => 95),
+            array('name' => "Cilacap Selatan", 'district_id' => 95),
+            array('name' => "Cilacap Tengah", 'district_id' => 95),
+            array('name' => "Cilacap Utara", 'district_id' => 95),
+            array('name' => "Cimanggu", 'district_id' => 95),
+            array('name' => "Cipari", 'district_id' => 95),
+            array('name' => "Dayeuhluhur", 'district_id' => 95),
+            array('name' => "Gandrungmangu", 'district_id' => 95),
+            array('name' => "Jeruklegi", 'district_id' => 95),
+            array('name' => "Kampung Laut", 'district_id' => 95),
+            array('name' => "Karangpucung", 'district_id' => 95),
+            array('name' => "Kawunganten", 'district_id' => 95),
+            array('name' => "Kedungreja", 'district_id' => 95),
+            array('name' => "Kesugihan", 'district_id' => 95),
+            array('name' => "Kroya", 'district_id' => 95),
+            array('name' => "Majenang", 'district_id' => 95),
+            array('name' => "Maos", 'district_id' => 95),
+            array('name' => "Nusawungu", 'district_id' => 95),
+            array('name' => "Patimuan", 'district_id' => 95),
+            array('name' => "Sampang", 'district_id' => 95),
+            array('name' => "Sidareja", 'district_id' => 95),
+            array('name' => "Wanareja", 'district_id' => 95),
+            // end::Subdistrict for Kabupaten Cilacap
         );
         DB::table('subdistricts')->insert($jateng);
     }
