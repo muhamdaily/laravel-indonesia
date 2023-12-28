@@ -1665,6 +1665,36 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Wanadadi", 'district_id' => 89),
             array('name' => "Wanayasa", 'district_id' => 89),
             // end::Subdistrict for Kabupaten Banjarnegara
+
+            // begin::Subdistrict for Kabupaten Banyumas
+            array('name' => "Ajibarang", 'district_id' => 90),
+            array('name' => "Banyumas", 'district_id' => 90),
+            array('name' => "Baturraden", 'district_id' => 90),
+            array('name' => "Cilongok", 'district_id' => 90),
+            array('name' => "Gumelar", 'district_id' => 90),
+            array('name' => "Kalibagor", 'district_id' => 90),
+            array('name' => "Karanglewas", 'district_id' => 90),
+            array('name' => "Kebasen", 'district_id' => 90),
+            array('name' => "Kedungbanteng", 'district_id' => 90),
+            array('name' => "Kembaran", 'district_id' => 90),
+            array('name' => "Kemranjen", 'district_id' => 90),
+            array('name' => "Jatilawang", 'district_id' => 90),
+            array('name' => "Lumbir", 'district_id' => 90),
+            array('name' => "Patikraja", 'district_id' => 90),
+            array('name' => "Pekuncen", 'district_id' => 90),
+            array('name' => "Purwojati", 'district_id' => 90),
+            array('name' => "Purwokerto Barat", 'district_id' => 90),
+            array('name' => "Purwokerto Selatan", 'district_id' => 90),
+            array('name' => "Purwokerto Timur", 'district_id' => 90),
+            array('name' => "Purwokerto Utara", 'district_id' => 90),
+            array('name' => "Rawalo", 'district_id' => 90),
+            array('name' => "Sokaraja", 'district_id' => 90),
+            array('name' => "Somagede", 'district_id' => 90),
+            array('name' => "Sumbang", 'district_id' => 90),
+            array('name' => "Sumpiuh", 'district_id' => 90),
+            array('name' => "Tambak", 'district_id' => 90),
+            array('name' => "Wangon", 'district_id' => 90),
+            // end::Subdistrict for Kabupaten Banyumas
         );
         DB::table('subdistricts')->insert($jateng);
     }
