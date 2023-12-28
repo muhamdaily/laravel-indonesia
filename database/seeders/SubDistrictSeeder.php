@@ -1963,6 +1963,18 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Wedi", 'district_id' => 102),
             array('name' => "Wonosari", 'district_id' => 102),
             // end::Subdistrict for Kabupaten Klaten
+
+            // begin::Subdistrict for Kabupaten Kudus
+            array('name' => "Bae", 'district_id' => 103),
+            array('name' => "Dawe", 'district_id' => 103),
+            array('name' => "Gebog", 'district_id' => 103),
+            array('name' => "Jati", 'district_id' => 103),
+            array('name' => "Jekulo", 'district_id' => 103),
+            array('name' => "Kaliwungu", 'district_id' => 103),
+            array('name' => "Kota Kudus", 'district_id' => 103),
+            array('name' => "Mejobo", 'district_id' => 103),
+            array('name' => "Undaan", 'district_id' => 103),
+            // end::Subdistrict for Kabupaten Kudus
         );
         DB::table('subdistricts')->insert($jateng);
     }
