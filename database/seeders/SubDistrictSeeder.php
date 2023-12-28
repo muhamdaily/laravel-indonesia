@@ -1934,6 +1934,35 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Sukorejo", 'district_id' => 101),
             array('name' => "Weleri", 'district_id' => 101),
             // end::Subdistrict for Kabupaten Kendal
+
+            // begin::Subdistrict for Kabupaten Klaten
+            array('name' => "Bayat", 'district_id' => 102),
+            array('name' => "Cawas", 'district_id' => 102),
+            array('name' => "Ceper", 'district_id' => 102),
+            array('name' => "Delanggu", 'district_id' => 102),
+            array('name' => "Gantiwarno", 'district_id' => 102),
+            array('name' => "Jatinom", 'district_id' => 102),
+            array('name' => "Jogonalan", 'district_id' => 102),
+            array('name' => "Juwiring", 'district_id' => 102),
+            array('name' => "Kalikotes", 'district_id' => 102),
+            array('name' => "Karanganom", 'district_id' => 102),
+            array('name' => "Karangdowo", 'district_id' => 102),
+            array('name' => "Karangnongko", 'district_id' => 102),
+            array('name' => "Kebonarum", 'district_id' => 102),
+            array('name' => "Kemalang", 'district_id' => 102),
+            array('name' => "Klaten Selatan", 'district_id' => 102),
+            array('name' => "Klaten Tengah", 'district_id' => 102),
+            array('name' => "Klaten Utara", 'district_id' => 102),
+            array('name' => "Manisrenggo", 'district_id' => 102),
+            array('name' => "Ngawen", 'district_id' => 102),
+            array('name' => "Pedan", 'district_id' => 102),
+            array('name' => "Polanharjo", 'district_id' => 102),
+            array('name' => "Prambanan", 'district_id' => 102),
+            array('name' => "Trucuk", 'district_id' => 102),
+            array('name' => "Tulung", 'district_id' => 102),
+            array('name' => "Wedi", 'district_id' => 102),
+            array('name' => "Wonosari", 'district_id' => 102),
+            // end::Subdistrict for Kabupaten Klaten
         );
         DB::table('subdistricts')->insert($jateng);
     }
