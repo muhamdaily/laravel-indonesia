@@ -1821,6 +1821,28 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Wedung", 'district_id' => 96),
             array('name' => "Wonosalam", 'district_id' => 96),
             // end::Subdistrict for Kabupaten Demak
+
+            // begin::Subdistrict for Kabupaten Grobogan
+            array('name' => "Brati", 'district_id' => 97),
+            array('name' => "Gabus", 'district_id' => 97),
+            array('name' => "Geyer", 'district_id' => 97),
+            array('name' => "Godong", 'district_id' => 97),
+            array('name' => "Grobogan", 'district_id' => 97),
+            array('name' => "Gubug", 'district_id' => 97),
+            array('name' => "Karangrayung", 'district_id' => 97),
+            array('name' => "Kedungjati", 'district_id' => 97),
+            array('name' => "Klambu", 'district_id' => 97),
+            array('name' => "Kradenan", 'district_id' => 97),
+            array('name' => "Ngaringan", 'district_id' => 97),
+            array('name' => "Penawangan", 'district_id' => 97),
+            array('name' => "Pulokulon", 'district_id' => 97),
+            array('name' => "Purwodadi", 'district_id' => 97),
+            array('name' => "Tanggungharjo", 'district_id' => 97),
+            array('name' => "Tawangharjo", 'district_id' => 97),
+            array('name' => "Tegowanu", 'district_id' => 97),
+            array('name' => "Toroh", 'district_id' => 97),
+            array('name' => "Wirosari", 'district_id' => 97),
+            // end::Subdistrict for Kabupaten Grobogan
         );
         DB::table('subdistricts')->insert($jateng);
     }
