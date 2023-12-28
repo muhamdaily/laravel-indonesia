@@ -1695,6 +1695,24 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tambak", 'district_id' => 90),
             array('name' => "Wangon", 'district_id' => 90),
             // end::Subdistrict for Kabupaten Banyumas
+
+            // begin::Subdistrict for Kabupaten Batang
+            array('name' => "Bandar", 'district_id' => 91),
+            array('name' => "Banyuputih", 'district_id' => 91),
+            array('name' => "Batang", 'district_id' => 91),
+            array('name' => "Bawang", 'district_id' => 91),
+            array('name' => "Blado", 'district_id' => 91),
+            array('name' => "Gringsing", 'district_id' => 91),
+            array('name' => "Kandeman", 'district_id' => 91),
+            array('name' => "Limpung", 'district_id' => 91),
+            array('name' => "Pecalungan", 'district_id' => 91),
+            array('name' => "Reban", 'district_id' => 91),
+            array('name' => "Subah", 'district_id' => 91),
+            array('name' => "Tersono", 'district_id' => 91),
+            array('name' => "Tulis", 'district_id' => 91),
+            array('name' => "Warungasem", 'district_id' => 91),
+            array('name' => "Wonotunggal", 'district_id' => 91),
+            // end::Subdistrict for Kabupaten Batang
         );
         DB::table('subdistricts')->insert($jateng);
     }
