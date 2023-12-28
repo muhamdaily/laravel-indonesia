@@ -1732,6 +1732,31 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Todanan", 'district_id' => 92),
             array('name' => "Tunjungan", 'district_id' => 92),
             // end::Subdistrict for Kabupaten Blora
+
+            // begin::Subdistrict for Kabupaten Boyolali
+            array('name' => "Ampel", 'district_id' => 93),
+            array('name' => "Andong", 'district_id' => 93),
+            array('name' => "Banyudono", 'district_id' => 93),
+            array('name' => "Boyolali", 'district_id' => 93),
+            array('name' => "Cepogo", 'district_id' => 93),
+            array('name' => "Gladagsari", 'district_id' => 93),
+            array('name' => "Juwangi", 'district_id' => 93),
+            array('name' => "Karanggede", 'district_id' => 93),
+            array('name' => "Kemusu", 'district_id' => 93),
+            array('name' => "Klego", 'district_id' => 93),
+            array('name' => "Mojosongo", 'district_id' => 93),
+            array('name' => "Musuk", 'district_id' => 93),
+            array('name' => "Ngemplak", 'district_id' => 93),
+            array('name' => "Nogosari", 'district_id' => 93),
+            array('name' => "Sambi", 'district_id' => 93),
+            array('name' => "Sawit", 'district_id' => 93),
+            array('name' => "Selo", 'district_id' => 93),
+            array('name' => "Simo", 'district_id' => 93),
+            array('name' => "Tamansari", 'district_id' => 93),
+            array('name' => "Teras", 'district_id' => 93),
+            array('name' => "Wonosamodro", 'district_id' => 93),
+            array('name' => "Wonosegoro", 'district_id' => 93),
+            // end::Subdistrict for Kabupaten Boyolali
         );
         DB::table('subdistricts')->insert($jateng);
     }
