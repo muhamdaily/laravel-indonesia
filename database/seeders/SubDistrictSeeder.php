@@ -1713,6 +1713,25 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Warungasem", 'district_id' => 91),
             array('name' => "Wonotunggal", 'district_id' => 91),
             // end::Subdistrict for Kabupaten Batang
+
+            // begin::Subdistrict for Kabupaten Blora
+            array('name' => "Banjarejo", 'district_id' => 92),
+            array('name' => "Blora", 'district_id' => 92),
+            array('name' => "Bogorejo", 'district_id' => 92),
+            array('name' => "Cepu", 'district_id' => 92),
+            array('name' => "Japah", 'district_id' => 92),
+            array('name' => "Jati", 'district_id' => 92),
+            array('name' => "Jepon", 'district_id' => 92),
+            array('name' => "Jiken", 'district_id' => 92),
+            array('name' => "Kedungtuban", 'district_id' => 92),
+            array('name' => "Kradenan", 'district_id' => 92),
+            array('name' => "Kunduran", 'district_id' => 92),
+            array('name' => "Ngawen", 'district_id' => 92),
+            array('name' => "Randublatung", 'district_id' => 92),
+            array('name' => "Sambong", 'district_id' => 92),
+            array('name' => "Todanan", 'district_id' => 92),
+            array('name' => "Tunjungan", 'district_id' => 92),
+            // end::Subdistrict for Kabupaten Blora
         );
         DB::table('subdistricts')->insert($jateng);
     }
