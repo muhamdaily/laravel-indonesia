@@ -1999,6 +1999,30 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tempuran", 'district_id' => 104),
             array('name' => "Windusari", 'district_id' => 104),
             // end::Subdistrict for Kabupaten Magelang
+
+            // begin::Subdistrict for Kabupaten Pati
+            array('name' => "Batangan", 'district_id' => 105),
+            array('name' => "Cluwak", 'district_id' => 105),
+            array('name' => "Dukuhseti", 'district_id' => 105),
+            array('name' => "Gabus", 'district_id' => 105),
+            array('name' => "Gembong", 'district_id' => 105),
+            array('name' => "Gunungwungkal", 'district_id' => 105),
+            array('name' => "Jaken", 'district_id' => 105),
+            array('name' => "Jakenan", 'district_id' => 105),
+            array('name' => "Juwana", 'district_id' => 105),
+            array('name' => "Kayen", 'district_id' => 105),
+            array('name' => "Margorejo", 'district_id' => 105),
+            array('name' => "Margoyoso", 'district_id' => 105),
+            array('name' => "Pati", 'district_id' => 105),
+            array('name' => "Pucakwangi", 'district_id' => 105),
+            array('name' => "Sukolilo", 'district_id' => 105),
+            array('name' => "Tambakromo", 'district_id' => 105),
+            array('name' => "Tayu", 'district_id' => 105),
+            array('name' => "Tlogowungu", 'district_id' => 105),
+            array('name' => "Trangkil", 'district_id' => 105),
+            array('name' => "Wedarijaksa", 'district_id' => 105),
+            array('name' => "Winong", 'district_id' => 105),
+            // end::Subdistrict for Kabupaten Pati
         );
         DB::table('subdistricts')->insert($jateng);
     }
