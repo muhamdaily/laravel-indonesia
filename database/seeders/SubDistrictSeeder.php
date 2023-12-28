@@ -1804,6 +1804,23 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Sidareja", 'district_id' => 95),
             array('name' => "Wanareja", 'district_id' => 95),
             // end::Subdistrict for Kabupaten Cilacap
+
+            // begin::Subdistrict for Kabupaten Demak
+            array('name' => "Bonang", 'district_id' => 96),
+            array('name' => "Demak", 'district_id' => 96),
+            array('name' => "Dempet", 'district_id' => 96),
+            array('name' => "Gajah", 'district_id' => 96),
+            array('name' => "Guntur", 'district_id' => 96),
+            array('name' => "Karanganyar", 'district_id' => 96),
+            array('name' => "Karangawen", 'district_id' => 96),
+            array('name' => "Karangtengah", 'district_id' => 96),
+            array('name' => "Kebonagung", 'district_id' => 96),
+            array('name' => "Mijen", 'district_id' => 96),
+            array('name' => "Mranggen", 'district_id' => 96),
+            array('name' => "Sayung", 'district_id' => 96),
+            array('name' => "Wedung", 'district_id' => 96),
+            array('name' => "Wonosalam", 'district_id' => 96),
+            // end::Subdistrict for Kabupaten Demak
         );
         DB::table('subdistricts')->insert($jateng);
     }
