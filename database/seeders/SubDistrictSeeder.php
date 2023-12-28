@@ -1975,6 +1975,30 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Mejobo", 'district_id' => 103),
             array('name' => "Undaan", 'district_id' => 103),
             // end::Subdistrict for Kabupaten Kudus
+
+            // begin::Subdistrict for Kabupaten Magelang
+            array('name' => "Bandongan", 'district_id' => 104),
+            array('name' => "Borobudur", 'district_id' => 104),
+            array('name' => "Candimulyo", 'district_id' => 104),
+            array('name' => "Dukun", 'district_id' => 104),
+            array('name' => "Grabag", 'district_id' => 104),
+            array('name' => "Kajoran", 'district_id' => 104),
+            array('name' => "Kaliangkrik", 'district_id' => 104),
+            array('name' => "Mertoyudan", 'district_id' => 104),
+            array('name' => "Mungkid", 'district_id' => 104),
+            array('name' => "Muntilan", 'district_id' => 104),
+            array('name' => "Ngablak", 'district_id' => 104),
+            array('name' => "Ngluwar", 'district_id' => 104),
+            array('name' => "Pakis", 'district_id' => 104),
+            array('name' => "Salam", 'district_id' => 104),
+            array('name' => "Salaman", 'district_id' => 104),
+            array('name' => "Sawangan", 'district_id' => 104),
+            array('name' => "Secang", 'district_id' => 104),
+            array('name' => "Srumbung", 'district_id' => 104),
+            array('name' => "Tegalrejo", 'district_id' => 104),
+            array('name' => "Tempuran", 'district_id' => 104),
+            array('name' => "Windusari", 'district_id' => 104),
+            // end::Subdistrict for Kabupaten Magelang
         );
         DB::table('subdistricts')->insert($jateng);
     }
