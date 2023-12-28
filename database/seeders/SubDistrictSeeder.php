@@ -1862,6 +1862,26 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Tahunan", 'district_id' => 98),
             array('name' => "Welahan", 'district_id' => 98),
             // end::Subdistrict for Kabupaten Jepara
+
+            // begin::Subdistrict for Kabupaten Karanganyar
+            array('name' => "Colomadu", 'district_id' => 99),
+            array('name' => "Gondangrejo", 'district_id' => 99),
+            array('name' => "Jaten", 'district_id' => 99),
+            array('name' => "Jatipuro", 'district_id' => 99),
+            array('name' => "Jatiyoso", 'district_id' => 99),
+            array('name' => "Jenawi", 'district_id' => 99),
+            array('name' => "Jumapolo", 'district_id' => 99),
+            array('name' => "Jumantono", 'district_id' => 99),
+            array('name' => "Karanganyar", 'district_id' => 99),
+            array('name' => "Karangpandan", 'district_id' => 99),
+            array('name' => "Kebakkramat", 'district_id' => 99),
+            array('name' => "Kerjo", 'district_id' => 99),
+            array('name' => "Matesih", 'district_id' => 99),
+            array('name' => "Ngargoyoso", 'district_id' => 99),
+            array('name' => "Mojogedang", 'district_id' => 99),
+            array('name' => "Tasikmadu", 'district_id' => 99),
+            array('name' => "Tawangmangu", 'district_id' => 99),
+            // end::Subdistrict for Kabupaten Karanganyar
         );
         DB::table('subdistricts')->insert($jateng);
     }
