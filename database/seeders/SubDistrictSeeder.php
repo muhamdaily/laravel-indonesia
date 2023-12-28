@@ -1843,6 +1843,25 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Toroh", 'district_id' => 97),
             array('name' => "Wirosari", 'district_id' => 97),
             // end::Subdistrict for Kabupaten Grobogan
+
+            // begin::Subdistrict for Kabupaten Jepara
+            array('name' => "Bangsri", 'district_id' => 98),
+            array('name' => "Batealit", 'district_id' => 98),
+            array('name' => "Donorojo", 'district_id' => 98),
+            array('name' => "Jepara", 'district_id' => 98),
+            array('name' => "Kalinyamatan", 'district_id' => 98),
+            array('name' => "Karimunjawa", 'district_id' => 98),
+            array('name' => "Kedung", 'district_id' => 98),
+            array('name' => "Keling", 'district_id' => 98),
+            array('name' => "Kembang", 'district_id' => 98),
+            array('name' => "Mayong", 'district_id' => 98),
+            array('name' => "Mlonggo", 'district_id' => 98),
+            array('name' => "Nalumsari", 'district_id' => 98),
+            array('name' => "Pakis Aji", 'district_id' => 98),
+            array('name' => "Pecangaan", 'district_id' => 98),
+            array('name' => "Tahunan", 'district_id' => 98),
+            array('name' => "Welahan", 'district_id' => 98),
+            // end::Subdistrict for Kabupaten Jepara
         );
         DB::table('subdistricts')->insert($jateng);
     }
