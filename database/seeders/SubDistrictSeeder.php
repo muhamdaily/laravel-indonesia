@@ -2023,6 +2023,28 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Wedarijaksa", 'district_id' => 105),
             array('name' => "Winong", 'district_id' => 105),
             // end::Subdistrict for Kabupaten Pati
+
+            // begin::Subdistrict for Kabupaten Pekalongan
+            array('name' => "Bojong", 'district_id' => 106),
+            array('name' => "Buaran", 'district_id' => 106),
+            array('name' => "Doro", 'district_id' => 106),
+            array('name' => "Kajen", 'district_id' => 106),
+            array('name' => "Kandangserang", 'district_id' => 106),
+            array('name' => "Karanganyar", 'district_id' => 106),
+            array('name' => "Karangdadap", 'district_id' => 106),
+            array('name' => "Kedungwuni", 'district_id' => 106),
+            array('name' => "Kesesi", 'district_id' => 106),
+            array('name' => "Lebakbarang", 'district_id' => 106),
+            array('name' => "Paninggaran", 'district_id' => 106),
+            array('name' => "Petungkriyana", 'district_id' => 106),
+            array('name' => "Siwalan", 'district_id' => 106),
+            array('name' => "Sragi", 'district_id' => 106),
+            array('name' => "Talun", 'district_id' => 106),
+            array('name' => "Tirto", 'district_id' => 106),
+            array('name' => "Wiradesa", 'district_id' => 106),
+            array('name' => "Wonokerto", 'district_id' => 106),
+            array('name' => "Wonopringgo", 'district_id' => 106),
+            // end::Subdistrict for Kabupaten Pekalongan
         );
         DB::table('subdistricts')->insert($jateng);
     }
