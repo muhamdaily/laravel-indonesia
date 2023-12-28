@@ -2045,6 +2045,23 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Wonokerto", 'district_id' => 106),
             array('name' => "Wonopringgo", 'district_id' => 106),
             // end::Subdistrict for Kabupaten Pekalongan
+
+            // begin::Subdistrict for Kabupaten Pemalang
+            array('name' => "Ampelgading", 'district_id' => 107),
+            array('name' => "Bantarbolang", 'district_id' => 107),
+            array('name' => "Belik", 'district_id' => 107),
+            array('name' => "Bodeh", 'district_id' => 107),
+            array('name' => "Comal", 'district_id' => 107),
+            array('name' => "Moga", 'district_id' => 107),
+            array('name' => "Pemalang", 'district_id' => 107),
+            array('name' => "Petarukan", 'district_id' => 107),
+            array('name' => "Pulosari", 'district_id' => 107),
+            array('name' => "Randudongkal", 'district_id' => 107),
+            array('name' => "Taman", 'district_id' => 107),
+            array('name' => "Ulujami", 'district_id' => 107),
+            array('name' => "Warungpring", 'district_id' => 107),
+            array('name' => "Watukumpul", 'district_id' => 107),
+            // end::Subdistrict for Kabupaten Pemalang
         );
         DB::table('subdistricts')->insert($jateng);
     }
