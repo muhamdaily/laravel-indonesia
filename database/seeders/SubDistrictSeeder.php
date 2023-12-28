@@ -1757,6 +1757,26 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Wonosamodro", 'district_id' => 93),
             array('name' => "Wonosegoro", 'district_id' => 93),
             // end::Subdistrict for Kabupaten Boyolali
+
+            // begin::Subdistrict for Kabupaten Brebes
+            array('name' => "Banjarharjo", 'district_id' => 94),
+            array('name' => "Bantarkawung", 'district_id' => 94),
+            array('name' => "Brebes", 'district_id' => 94),
+            array('name' => "Bulakamba", 'district_id' => 94),
+            array('name' => "Bumiayu", 'district_id' => 94),
+            array('name' => "Jatibarang", 'district_id' => 94),
+            array('name' => "Kersana", 'district_id' => 94),
+            array('name' => "Ketanggungan", 'district_id' => 94),
+            array('name' => "Larangan", 'district_id' => 94),
+            array('name' => "Losari", 'district_id' => 94),
+            array('name' => "Paguyangan", 'district_id' => 94),
+            array('name' => "Salem", 'district_id' => 94),
+            array('name' => "Sirampog", 'district_id' => 94),
+            array('name' => "Songgom", 'district_id' => 94),
+            array('name' => "Tanjung", 'district_id' => 94),
+            array('name' => "Tonjong", 'district_id' => 94),
+            array('name' => "Wanasari", 'district_id' => 94),
+            // end::Subdistrict for Kabupaten Brebes
         );
         DB::table('subdistricts')->insert($jateng);
     }
