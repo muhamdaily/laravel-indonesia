@@ -2083,6 +2083,25 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Purbalingga", 'district_id' => 108),
             array('name' => "Rembang", 'district_id' => 108),
             // end::Subdistrict for Kabupaten Purbalingga
+
+            // begin::Subdistrict for Kabupaten Purworejo
+            array('name' => "Bagelen", 'district_id' => 109),
+            array('name' => "Banyuurip", 'district_id' => 109),
+            array('name' => "Bayan", 'district_id' => 109),
+            array('name' => "Bener", 'district_id' => 109),
+            array('name' => "Bruno", 'district_id' => 109),
+            array('name' => "Butuh", 'district_id' => 109),
+            array('name' => "Gebang", 'district_id' => 109),
+            array('name' => "Grabag", 'district_id' => 109),
+            array('name' => "Kaligesing", 'district_id' => 109),
+            array('name' => "Kemiri", 'district_id' => 109),
+            array('name' => "Kutoarjo", 'district_id' => 109),
+            array('name' => "Loano", 'district_id' => 109),
+            array('name' => "Pituruh", 'district_id' => 109),
+            array('name' => "Purwodadi", 'district_id' => 109),
+            array('name' => "Purworejo", 'district_id' => 109),
+            array('name' => "Ngombol", 'district_id' => 109),
+            // end::Subdistrict for Kabupaten Purworejo
         );
         DB::table('subdistricts')->insert($jateng);
     }
