@@ -1911,6 +1911,29 @@ class SubDistrictSeeder extends Seeder
             array('name' => "Sempor", 'district_id' => 100),
             array('name' => "Sruweng", 'district_id' => 100),
             // end::Subdistrict for Kabupaten Kebumen
+
+            // begin::Subdistrict for Kabupaten Kendal
+            array('name' => "Brangsong", 'district_id' => 101),
+            array('name' => "Boja", 'district_id' => 101),
+            array('name' => "Cepiring", 'district_id' => 101),
+            array('name' => "Gemuh", 'district_id' => 101),
+            array('name' => "Kaliwungu", 'district_id' => 101),
+            array('name' => "Kaliwungu Selatan", 'district_id' => 101),
+            array('name' => "Kangkung", 'district_id' => 101),
+            array('name' => "Kendal", 'district_id' => 101),
+            array('name' => "Limbangan", 'district_id' => 101),
+            array('name' => "Ngampel", 'district_id' => 101),
+            array('name' => "Plantungan", 'district_id' => 101),
+            array('name' => "Pageruyung", 'district_id' => 101),
+            array('name' => "Patean", 'district_id' => 101),
+            array('name' => "Patebon", 'district_id' => 101),
+            array('name' => "Pegandon", 'district_id' => 101),
+            array('name' => "Ringinarum", 'district_id' => 101),
+            array('name' => "Rowosari", 'district_id' => 101),
+            array('name' => "Singorojo", 'district_id' => 101),
+            array('name' => "Sukorejo", 'district_id' => 101),
+            array('name' => "Weleri", 'district_id' => 101),
+            // end::Subdistrict for Kabupaten Kendal
         );
         DB::table('subdistricts')->insert($jateng);
     }
